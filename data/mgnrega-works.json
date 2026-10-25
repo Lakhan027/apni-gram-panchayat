@@ -1,0 +1,117 @@
+{
+  "works": [
+    {
+      "id": "M-001",
+      "officialRef": "RJ-BHL-HRD-001",
+      "name": "सामुदायिक तालाब गहरीकरण",
+      "location": "वार्ड 1, तालाब क्षेत्र",
+      "approvedAmount": 920000,
+      "recordedExpenditure": 405000,
+      "status": "in-progress",
+      "progress": 42,
+      "en": {
+        "name": "Community pond deepening",
+        "location": "Ward 1, pond area"
+      }
+    },
+    {
+      "id": "M-002",
+      "officialRef": "RJ-BHL-HRD-002",
+      "name": "खेत तलाई निर्माण",
+      "location": "वार्ड 6, चरागाह के पास",
+      "approvedAmount": 310000,
+      "recordedExpenditure": 310000,
+      "status": "completed",
+      "progress": 100,
+      "en": {
+        "name": "Farm pond construction",
+        "location": "Ward 6, near pasture"
+      }
+    },
+    {
+      "id": "M-003",
+      "officialRef": "RJ-BHL-HRD-003",
+      "name": "ग्रेवल सड़क — खेत मार्ग",
+      "location": "वार्ड 8",
+      "approvedAmount": 450000,
+      "recordedExpenditure": 190000,
+      "status": "in-progress",
+      "progress": 40,
+      "en": {
+        "name": "Gravel road — farm track",
+        "location": "Ward 8"
+      }
+    },
+    {
+      "id": "M-004",
+      "officialRef": "RJ-BHL-HRD-004",
+      "name": "चरागाह विकास व मेड़बंदी",
+      "location": "वार्ड 4, सामुदायिक चरागाह",
+      "approvedAmount": 380000,
+      "recordedExpenditure": 95000,
+      "status": "in-progress",
+      "progress": 25,
+      "en": {
+        "name": "Pasture development and bunding",
+        "location": "Ward 4, community pasture"
+      }
+    },
+    {
+      "id": "M-005",
+      "officialRef": "RJ-BHL-HRD-005",
+      "name": "एनीकट मरम्मत",
+      "location": "वार्ड 9, नाले पर",
+      "approvedAmount": 260000,
+      "recordedExpenditure": 0,
+      "status": "approved",
+      "progress": 0,
+      "en": {
+        "name": "Anicut repair",
+        "location": "Ward 9, on the stream"
+      }
+    },
+    {
+      "id": "M-006",
+      "officialRef": "RJ-BHL-HRD-006",
+      "name": "खेजड़ी पौधारोपण",
+      "location": "वार्ड 6",
+      "approvedAmount": 210000,
+      "recordedExpenditure": 0,
+      "status": "proposed",
+      "progress": 0,
+      "en": {
+        "name": "Khejri plantation",
+        "location": "Ward 6"
+      }
+    }
+  ],
+  "reports": [
+    {
+      "title": "मासिक प्रगति रिपोर्ट — सितम्बर 2026",
+      "period": "सितम्बर 2026",
+      "type": "PDF",
+      "en": {
+        "title": "Monthly progress report — September 2026",
+        "period": "September 2026"
+      }
+    },
+    {
+      "title": "सामाजिक अंकेक्षण सारांश 2025–26",
+      "period": "2025–26",
+      "type": "PDF",
+      "en": {
+        "title": "Social audit summary 2025–26",
+        "period": "2025–26"
+      }
+    },
+    {
+      "title": "कार्य सूची — चालू वित्त वर्ष",
+      "period": "2026–27",
+      "type": "PDF",
+      "en": {
+        "title": "Works list — current financial year",
+        "period": "2026–27"
+      }
+    }
+  ]
+}

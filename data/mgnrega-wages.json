@@ -1,0 +1,74 @@
+[
+  {
+    "musterRoll": "MR-1041",
+    "workId": "M-001",
+    "periodFrom": "2026-09-01",
+    "periodTo": "2026-09-07",
+    "personDays": 168,
+    "status": "verified",
+    "referenceNo": "FTO-55102"
+  },
+  {
+    "musterRoll": "MR-1042",
+    "workId": "M-001",
+    "periodFrom": "2026-09-08",
+    "periodTo": "2026-09-14",
+    "personDays": 175,
+    "status": "verified",
+    "referenceNo": "FTO-55187"
+  },
+  {
+    "musterRoll": "MR-1043",
+    "workId": "M-003",
+    "periodFrom": "2026-09-15",
+    "periodTo": "2026-09-21",
+    "personDays": 120,
+    "status": "verification-pending",
+    "referenceNo": null
+  },
+  {
+    "musterRoll": "MR-1044",
+    "workId": "M-001",
+    "periodFrom": "2026-09-22",
+    "periodTo": "2026-09-28",
+    "personDays": 160,
+    "status": "processing",
+    "referenceNo": null
+  },
+  {
+    "musterRoll": "MR-1045",
+    "workId": "M-004",
+    "periodFrom": "2026-09-29",
+    "periodTo": "2026-10-05",
+    "personDays": 96,
+    "status": "processing",
+    "referenceNo": null
+  },
+  {
+    "musterRoll": "MR-1046",
+    "workId": "M-003",
+    "periodFrom": "2026-10-06",
+    "periodTo": "2026-10-12",
+    "personDays": 132,
+    "status": "processing",
+    "referenceNo": null
+  },
+  {
+    "musterRoll": "MR-1038",
+    "workId": "M-002",
+    "periodFrom": "2026-08-04",
+    "periodTo": "2026-08-10",
+    "personDays": 140,
+    "status": "verified",
+    "referenceNo": "FTO-54810"
+  },
+  {
+    "musterRoll": "MR-1047",
+    "workId": "M-004",
+    "periodFrom": "2026-10-13",
+    "periodTo": "2026-10-19",
+    "personDays": 88,
+    "status": "verification-pending",
+    "referenceNo": null
+  }
+]

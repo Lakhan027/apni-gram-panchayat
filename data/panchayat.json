@@ -1,0 +1,128 @@
+{
+  "name": "Appliyas",
+  "nameHi": "ग्राम पंचायत Appliyas",
+  "tehsil": "Hurda",
+  "district": "Bhilwara",
+  "state": "राजस्थान",
+  "intro": "ग्राम पंचायत Appliyas, तहसील Hurda, जिला Bhilwara (राजस्थान) में स्थित है। यह पोर्टल गाँव के विकास कार्यों, मनरेगा, बजट, ग्राम सभा और सरकारी योजनाओं की जानकारी एक जगह पारदर्शी रूप से देने के लिए बनाया गया है। [गाँव का विस्तृत परिचय — सत्यापन हेतु]",
+  "wards": [
+    {
+      "number": 1,
+      "area": "[क्षेत्र का नाम — सत्यापन हेतु]"
+    },
+    {
+      "number": 2,
+      "area": "[क्षेत्र का नाम — सत्यापन हेतु]"
+    },
+    {
+      "number": 3,
+      "area": "[क्षेत्र का नाम — सत्यापन हेतु]"
+    },
+    {
+      "number": 4,
+      "area": "[क्षेत्र का नाम — सत्यापन हेतु]"
+    },
+    {
+      "number": 5,
+      "area": "[क्षेत्र का नाम — सत्यापन हेतु]"
+    },
+    {
+      "number": 6,
+      "area": "[क्षेत्र का नाम — सत्यापन हेतु]"
+    },
+    {
+      "number": 7,
+      "area": "[क्षेत्र का नाम — सत्यापन हेतु]"
+    },
+    {
+      "number": 8,
+      "area": "[क्षेत्र का नाम — सत्यापन हेतु]"
+    },
+    {
+      "number": 9,
+      "area": "[क्षेत्र का नाम — सत्यापन हेतु]"
+    }
+  ],
+  "representatives": [
+    {
+      "role": "सरपंच",
+      "name": "[सरपंच का नाम — सत्यापन हेतु]"
+    },
+    {
+      "role": "उप सरपंच",
+      "name": "[उप सरपंच का नाम — सत्यापन हेतु]"
+    },
+    {
+      "role": "ग्राम विकास अधिकारी",
+      "name": "[ग्राम विकास अधिकारी का नाम — सत्यापन हेतु]"
+    },
+    {
+      "role": "वार्ड पंच",
+      "name": "[वार्ड पंचों के नाम — सत्यापन हेतु]"
+    }
+  ],
+  "functions": [
+    {
+      "title": "विकास कार्य",
+      "text": "सड़क, नाली, पेयजल, तालाब, स्ट्रीट लाइट और सार्वजनिक भवनों के कार्यों की योजना व निगरानी।"
+    },
+    {
+      "title": "रिकॉर्ड व प्रमाण पत्र",
+      "text": "जन्म-मृत्यु पंजीकरण, संपत्ति व अन्य ग्राम रिकॉर्ड का रखरखाव।"
+    },
+    {
+      "title": "ग्राम सभा",
+      "text": "नियमित ग्राम सभा बैठकें, प्रस्ताव पारित करना और कार्यों की सार्वजनिक समीक्षा।"
+    },
+    {
+      "title": "सरकारी योजनाएँ",
+      "text": "मनरेगा, पेंशन, स्वच्छता व अन्य योजनाओं की जानकारी और आवेदन में सहायता।"
+    }
+  ],
+  "office": {
+    "address": "[पंचायत भवन का पता]",
+    "phone": "[कार्यालय फ़ोन]",
+    "email": "[कार्यालय ईमेल]",
+    "hours": "[कार्यालय समय]"
+  },
+  "en": {
+    "intro": "Gram Panchayat Appliyas is in Tehsil Hurda, District Bhilwara, Rajasthan. This portal brings information on development works, MGNREGA, budget, Gram Sabha and government schemes together in one transparent place. [Detailed village introduction — to be verified]",
+    "wardArea": "[Area name — to be verified]",
+    "representatives": [
+      {
+        "role": "Sarpanch",
+        "name": "[Sarpanch name — to be verified]"
+      },
+      {
+        "role": "Deputy Sarpanch",
+        "name": "[Deputy Sarpanch name — to be verified]"
+      },
+      {
+        "role": "Village Development Officer",
+        "name": "[Village Development Officer name — to be verified]"
+      },
+      {
+        "role": "Ward members",
+        "name": "[Ward member names — to be verified]"
+      }
+    ],
+    "functions": [
+      {
+        "title": "Development works",
+        "text": "Planning and monitoring of roads, drains, drinking water, ponds, street lights and public buildings."
+      },
+      {
+        "title": "Records & certificates",
+        "text": "Birth and death registration, property and other village records."
+      },
+      {
+        "title": "Gram Sabha",
+        "text": "Regular Gram Sabha meetings, passing resolutions and public review of works."
+      },
+      {
+        "title": "Government schemes",
+        "text": "Information and help with applications for MGNREGA, pensions, sanitation and other schemes."
+      }
+    ]
+  }
+}

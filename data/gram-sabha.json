@@ -1,0 +1,207 @@
+[
+  {
+    "id": "GS-2026-04",
+    "date": "2026-11-15",
+    "time": "सुबह 11:00 बजे",
+    "venue": "पंचायत भवन प्रांगण, Appliyas",
+    "upcoming": true,
+    "agenda": [
+      "वार्षिक कार्य योजना 2027–28 पर चर्चा",
+      "मनरेगा कार्यों का सामाजिक अंकेक्षण",
+      "पेयजल पाइपलाइन विस्तार की प्रगति समीक्षा",
+      "स्ट्रीट लाइट स्थापना हेतु स्थान चयन"
+    ],
+    "attendance": null,
+    "resolutions": [],
+    "en": {
+      "time": "11:00 AM",
+      "venue": "Panchayat building grounds, Appliyas",
+      "agenda": [
+        "Discussion of the annual work plan 2027–28",
+        "Social audit of MGNREGA works",
+        "Progress review of the water pipeline extension",
+        "Choosing locations for street lights"
+      ]
+    }
+  },
+  {
+    "id": "GS-2026-03",
+    "date": "2026-08-15",
+    "time": "सुबह 10:30 बजे",
+    "venue": "राजकीय विद्यालय प्रांगण",
+    "upcoming": false,
+    "agenda": [
+      "स्वतंत्रता दिवस विशेष ग्राम सभा",
+      "स्ट्रीट लाइट प्रस्ताव",
+      "स्वच्छता अभियान"
+    ],
+    "attendance": {
+      "total": 212,
+      "women": 94,
+      "quorumMet": true
+    },
+    "resolutions": [
+      {
+        "number": "R-2026-11",
+        "title": "मुख्य बाज़ार में स्ट्रीट लाइट स्थापना",
+        "decision": "passed",
+        "responsibleBody": "ग्राम पंचायत",
+        "actionStatus": "approved",
+        "lastUpdate": "2026-09-12",
+        "en": {
+          "title": "Street lights in the main market",
+          "responsibleBody": "Gram Panchayat"
+        }
+      },
+      {
+        "number": "R-2026-12",
+        "title": "हर माह पहले रविवार स्वच्छता अभियान",
+        "decision": "passed",
+        "responsibleBody": "स्वच्छता समिति",
+        "actionStatus": "in-progress",
+        "lastUpdate": "2026-10-05",
+        "en": {
+          "title": "Cleanliness drive on the first Sunday of every month",
+          "responsibleBody": "Sanitation committee"
+        }
+      },
+      {
+        "number": "R-2026-13",
+        "title": "श्मशान घाट संपर्क सड़क",
+        "decision": "deferred",
+        "responsibleBody": "ग्राम पंचायत",
+        "actionStatus": "proposed",
+        "lastUpdate": "2026-10-08",
+        "en": {
+          "title": "Approach road to cremation ground",
+          "responsibleBody": "Gram Panchayat"
+        }
+      }
+    ],
+    "en": {
+      "time": "10:30 AM",
+      "venue": "Government school grounds",
+      "agenda": [
+        "Independence Day special Gram Sabha",
+        "Street light proposal",
+        "Cleanliness drive"
+      ]
+    }
+  },
+  {
+    "id": "GS-2026-02",
+    "date": "2026-05-01",
+    "time": "सुबह 11:00 बजे",
+    "venue": "पंचायत भवन प्रांगण, Appliyas",
+    "upcoming": false,
+    "agenda": [
+      "पेयजल पाइपलाइन विस्तार",
+      "तालाब गहरीकरण",
+      "आंगनवाड़ी भवन मरम्मत"
+    ],
+    "attendance": {
+      "total": 186,
+      "women": 78,
+      "quorumMet": true
+    },
+    "resolutions": [
+      {
+        "number": "R-2026-07",
+        "title": "वार्ड 7 पेयजल पाइपलाइन विस्तार",
+        "decision": "passed",
+        "responsibleBody": "जल एवं स्वच्छता समिति",
+        "actionStatus": "in-progress",
+        "lastUpdate": "2026-10-15",
+        "en": {
+          "title": "Ward 7 water pipeline extension",
+          "responsibleBody": "Water and sanitation committee"
+        }
+      },
+      {
+        "number": "R-2026-08",
+        "title": "आंगनवाड़ी भवन की छत मरम्मत",
+        "decision": "passed",
+        "responsibleBody": "ग्राम पंचायत",
+        "actionStatus": "on-hold",
+        "lastUpdate": "2026-06-30",
+        "en": {
+          "title": "Anganwadi building roof repair",
+          "responsibleBody": "Gram Panchayat"
+        }
+      }
+    ],
+    "en": {
+      "time": "11:00 AM",
+      "venue": "Panchayat building grounds, Appliyas",
+      "agenda": [
+        "Water pipeline extension",
+        "Pond deepening",
+        "Anganwadi building repair"
+      ]
+    }
+  },
+  {
+    "id": "GS-2026-01",
+    "date": "2026-01-26",
+    "time": "सुबह 11:00 बजे",
+    "venue": "पंचायत भवन प्रांगण, Appliyas",
+    "upcoming": false,
+    "agenda": [
+      "गणतंत्र दिवस ग्राम सभा",
+      "वार्ड 5 नाली निर्माण",
+      "मनरेगा श्रम बजट"
+    ],
+    "attendance": {
+      "total": 240,
+      "women": 102,
+      "quorumMet": true
+    },
+    "resolutions": [
+      {
+        "number": "R-2026-02",
+        "title": "वार्ड 5 पक्की नाली निर्माण",
+        "decision": "passed",
+        "responsibleBody": "ग्राम पंचायत",
+        "actionStatus": "completed",
+        "lastUpdate": "2026-06-10",
+        "en": {
+          "title": "Ward 5 pucca drain construction",
+          "responsibleBody": "Gram Panchayat"
+        }
+      },
+      {
+        "number": "R-2026-03",
+        "title": "मनरेगा श्रम बजट 2026–27 अनुमोदन",
+        "decision": "passed",
+        "responsibleBody": "ग्राम पंचायत",
+        "actionStatus": "completed",
+        "lastUpdate": "2026-03-31",
+        "en": {
+          "title": "Approval of MGNREGA labour budget 2026–27",
+          "responsibleBody": "Gram Panchayat"
+        }
+      },
+      {
+        "number": "R-2026-04",
+        "title": "निजी भूमि पर सड़क प्रस्ताव",
+        "decision": "rejected",
+        "responsibleBody": "ग्राम पंचायत",
+        "actionStatus": "on-hold",
+        "lastUpdate": "2026-01-26",
+        "en": {
+          "title": "Road proposal on private land",
+          "responsibleBody": "Gram Panchayat"
+        }
+      }
+    ],
+    "en": {
+      "time": "11:00 AM",
+      "venue": "Panchayat building grounds, Appliyas",
+      "agenda": [
+        "Republic Day Gram Sabha",
+        "Ward 5 drain construction",
+        "MGNREGA labour budget"
+      ]
+    }
+  }
+]

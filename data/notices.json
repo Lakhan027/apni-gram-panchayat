@@ -1,0 +1,187 @@
+[
+  {
+    "id": "N-001",
+    "date": "2026-10-22",
+    "category": "gram-sabha",
+    "title": "15 नवम्बर को विशेष ग्राम सभा",
+    "summary": "वार्षिक कार्य योजना और मनरेगा सामाजिक अंकेक्षण पर चर्चा हेतु सभी ग्रामवासी आमंत्रित हैं।",
+    "important": false,
+    "attachment": "सूचना पत्र",
+    "en": {
+      "title": "Special Gram Sabha on 15 November",
+      "summary": "All villagers are invited to discuss the annual work plan and MGNREGA social audit.",
+      "attachment": "Notice letter"
+    }
+  },
+  {
+    "id": "N-002",
+    "date": "2026-10-20",
+    "category": "deadline",
+    "title": "पेंशन सत्यापन की अंतिम तिथि 30 नवम्बर",
+    "summary": "सभी पेंशनधारी अपना वार्षिक सत्यापन निर्धारित तिथि तक करवाएँ।",
+    "important": true,
+    "attachment": null,
+    "en": {
+      "title": "Pension verification deadline: 30 November",
+      "summary": "All pensioners should complete their annual verification by the due date."
+    }
+  },
+  {
+    "id": "N-003",
+    "date": "2026-10-15",
+    "category": "works",
+    "title": "वार्ड 7 में पाइपलाइन कार्य — जल आपूर्ति प्रभावित",
+    "summary": "पाइपलाइन जोड़ने के कारण 18–20 अक्टूबर को सुबह की आपूर्ति प्रभावित रहेगी।",
+    "important": false,
+    "attachment": null,
+    "en": {
+      "title": "Pipeline work in ward 7 — water supply affected",
+      "summary": "Morning supply will be affected on 18–20 October while pipelines are joined."
+    }
+  },
+  {
+    "id": "N-004",
+    "date": "2026-10-10",
+    "category": "health",
+    "title": "निःशुल्क स्वास्थ्य जाँच शिविर",
+    "summary": "पंचायत भवन में बच्चों और बुज़ुर्गों के लिए स्वास्थ्य जाँच शिविर।",
+    "important": false,
+    "attachment": "शिविर विवरण",
+    "en": {
+      "title": "Free health check-up camp",
+      "summary": "Health check-up camp for children and the elderly at the Panchayat building.",
+      "attachment": "Camp details"
+    }
+  },
+  {
+    "id": "N-005",
+    "date": "2026-10-05",
+    "category": "scheme",
+    "title": "मनरेगा जॉब कार्ड हेतु पंजीकरण",
+    "summary": "नए परिवार पंचायत कार्यालय में जॉब कार्ड हेतु आवेदन कर सकते हैं।",
+    "important": false,
+    "attachment": null,
+    "en": {
+      "title": "Registration for MGNREGA job cards",
+      "summary": "New households can apply for job cards at the Panchayat office."
+    }
+  },
+  {
+    "id": "N-006",
+    "date": "2026-09-28",
+    "category": "deadline",
+    "title": "शौचालय सहायता आवेदन की अंतिम तिथि",
+    "summary": "व्यक्तिगत घरेलू शौचालय हेतु आवेदन 31 अक्टूबर तक जमा करें।",
+    "important": true,
+    "attachment": null,
+    "en": {
+      "title": "Deadline for toilet support applications",
+      "summary": "Submit applications for individual household toilets by 31 October."
+    }
+  },
+  {
+    "id": "N-007",
+    "date": "2026-09-20",
+    "category": "health",
+    "title": "मच्छर रोधी दवा छिड़काव",
+    "summary": "सभी वार्डों में अगले सप्ताह दवा छिड़काव किया जाएगा। पानी जमा न होने दें।",
+    "important": false,
+    "attachment": null,
+    "en": {
+      "title": "Anti-mosquito spraying",
+      "summary": "Spraying in all wards next week. Do not let water collect."
+    }
+  },
+  {
+    "id": "N-008",
+    "date": "2026-09-12",
+    "category": "works",
+    "title": "स्ट्रीट लाइट कार्य को स्वीकृति",
+    "summary": "मुख्य बाज़ार में स्ट्रीट लाइट स्थापना कार्य स्वीकृत।",
+    "important": false,
+    "attachment": "स्वीकृति पत्र",
+    "en": {
+      "title": "Street light work approved",
+      "summary": "Street light installation in the main market has been approved.",
+      "attachment": "Approval letter"
+    }
+  },
+  {
+    "id": "N-009",
+    "date": "2026-08-25",
+    "category": "scheme",
+    "title": "नल कनेक्शन हेतु आवेदन आमंत्रित",
+    "summary": "वार्ड 7 के परिवार घरेलू नल कनेक्शन हेतु आवेदन करें।",
+    "important": false,
+    "attachment": null,
+    "en": {
+      "title": "Applications invited for tap connections",
+      "summary": "Households in ward 7 may apply for tap connections."
+    }
+  },
+  {
+    "id": "N-010",
+    "date": "2026-08-10",
+    "category": "gram-sabha",
+    "title": "15 अगस्त ग्राम सभा की सूचना",
+    "summary": "स्वतंत्रता दिवस पर विद्यालय प्रांगण में ग्राम सभा आयोजित होगी।",
+    "important": false,
+    "attachment": null,
+    "en": {
+      "title": "Notice of 15 August Gram Sabha",
+      "summary": "Gram Sabha at the school grounds on Independence Day."
+    }
+  },
+  {
+    "id": "N-011",
+    "date": "2026-07-30",
+    "category": "health",
+    "title": "स्वच्छता अभियान — पहला रविवार",
+    "summary": "हर माह के पहले रविवार को सामूहिक स्वच्छता अभियान में भाग लें।",
+    "important": false,
+    "attachment": null,
+    "en": {
+      "title": "Cleanliness drive — first Sunday",
+      "summary": "Join the community cleanliness drive on the first Sunday of every month."
+    }
+  },
+  {
+    "id": "N-012",
+    "date": "2026-07-01",
+    "category": "works",
+    "title": "वार्ड 3 सड़क निर्माण प्रारंभ",
+    "summary": "मुख्य चौक से विद्यालय तक सीसी सड़क का कार्य शुरू हो रहा है।",
+    "important": false,
+    "attachment": null,
+    "en": {
+      "title": "Ward 3 road construction begins",
+      "summary": "CC road work from the main square to the school is starting."
+    }
+  },
+  {
+    "id": "N-013",
+    "date": "2026-06-15",
+    "category": "deadline",
+    "title": "मनरेगा काम की माँग — वर्षा पूर्व",
+    "summary": "वर्षा से पहले काम की माँग पंचायत में लिखित रूप में दर्ज कराएँ।",
+    "important": true,
+    "attachment": null,
+    "en": {
+      "title": "MGNREGA work demand — before monsoon",
+      "summary": "Register your demand for work in writing at the Panchayat before the rains."
+    }
+  },
+  {
+    "id": "N-014",
+    "date": "2026-05-20",
+    "category": "scheme",
+    "title": "पेंशन योजनाओं की जानकारी शिविर",
+    "summary": "पेंशन योजनाओं की जानकारी व आवेदन सहायता हेतु शिविर।",
+    "important": false,
+    "attachment": null,
+    "en": {
+      "title": "Pension schemes information camp",
+      "summary": "Camp for information and help with pension applications."
+    }
+  }
+]

@@ -1,0 +1,473 @@
+{
+  "financialYears": [
+    "2026-27",
+    "2025-26",
+    "2024-25"
+  ],
+  "lines": [
+    {
+      "id": "B-2627-01",
+      "financialYear": "2026-27",
+      "scheme": "राज्य वित्त आयोग",
+      "workId": "W-001",
+      "workName": "वार्ड 3 मुख्य मार्ग सीसी सड़क निर्माण",
+      "category": "road",
+      "approved": 650000,
+      "en": {
+        "scheme": "State Finance Commission",
+        "workName": "Ward 3 main road CC construction"
+      }
+    },
+    {
+      "id": "B-2627-02",
+      "financialYear": "2026-27",
+      "scheme": "मनरेगा",
+      "workId": "W-003",
+      "workName": "सामुदायिक तालाब गहरीकरण",
+      "category": "pond",
+      "approved": 920000,
+      "en": {
+        "scheme": "MGNREGA",
+        "workName": "Community pond deepening"
+      }
+    },
+    {
+      "id": "B-2627-03",
+      "financialYear": "2026-27",
+      "scheme": "15वाँ वित्त आयोग",
+      "workId": "W-004",
+      "workName": "मुख्य बाज़ार में स्ट्रीट लाइट स्थापना",
+      "category": "streetlight",
+      "approved": 360000,
+      "en": {
+        "scheme": "15th Finance Commission",
+        "workName": "Street lights in the main market"
+      }
+    },
+    {
+      "id": "B-2627-04",
+      "financialYear": "2026-27",
+      "scheme": "जल जीवन मिशन",
+      "workId": "W-005",
+      "workName": "पेयजल टंकी से पाइपलाइन विस्तार",
+      "category": "water",
+      "approved": 1150000,
+      "en": {
+        "scheme": "Jal Jeevan Mission",
+        "workName": "Pipeline extension from water tank"
+      }
+    },
+    {
+      "id": "B-2627-05",
+      "financialYear": "2026-27",
+      "scheme": "राज्य वित्त आयोग",
+      "workId": "W-007",
+      "workName": "आंगनवाड़ी भवन की छत मरम्मत",
+      "category": "building",
+      "approved": 220000,
+      "en": {
+        "scheme": "State Finance Commission",
+        "workName": "Anganwadi building roof repair"
+      }
+    },
+    {
+      "id": "B-2627-06",
+      "financialYear": "2026-27",
+      "scheme": "स्वच्छ भारत मिशन (ग्रामीण)",
+      "workId": "W-010",
+      "workName": "वार्ड 9 नाली सफ़ाई व ढक्कन",
+      "category": "drain",
+      "approved": 175000,
+      "en": {
+        "scheme": "Swachh Bharat Mission (Gramin)",
+        "workName": "Ward 9 drain cleaning and covers"
+      }
+    },
+    {
+      "id": "B-2627-07",
+      "financialYear": "2026-27",
+      "scheme": "राज्य वित्त आयोग",
+      "workId": "W-011",
+      "workName": "पंचायत भवन में ई-मित्र कक्ष",
+      "category": "building",
+      "approved": 480000,
+      "en": {
+        "scheme": "State Finance Commission",
+        "workName": "E-Mitra room in Panchayat building"
+      }
+    },
+    {
+      "id": "B-2526-01",
+      "financialYear": "2025-26",
+      "scheme": "15वाँ वित्त आयोग",
+      "workId": "W-002",
+      "workName": "वार्ड 5 पक्की नाली निर्माण",
+      "category": "drain",
+      "approved": 280000,
+      "en": {
+        "scheme": "15th Finance Commission",
+        "workName": "Ward 5 pucca drain construction"
+      }
+    },
+    {
+      "id": "B-2526-02",
+      "financialYear": "2025-26",
+      "scheme": "स्वच्छ भारत मिशन (ग्रामीण)",
+      "workId": "W-006",
+      "workName": "सार्वजनिक शौचालय मरम्मत",
+      "category": "sanitation",
+      "approved": 150000,
+      "en": {
+        "scheme": "Swachh Bharat Mission (Gramin)",
+        "workName": "Public toilet repair"
+      }
+    },
+    {
+      "id": "B-2526-03",
+      "financialYear": "2025-26",
+      "scheme": "15वाँ वित्त आयोग",
+      "workId": "W-009",
+      "workName": "विद्यालय परिसर में हैंडपंप मरम्मत",
+      "category": "water",
+      "approved": 45000,
+      "en": {
+        "scheme": "15th Finance Commission",
+        "workName": "Hand pump repair in school campus"
+      }
+    },
+    {
+      "id": "B-2526-04",
+      "financialYear": "2025-26",
+      "scheme": "मनरेगा",
+      "workId": "M-002",
+      "workName": "खेत तलाई निर्माण",
+      "category": "pond",
+      "approved": 310000,
+      "en": {
+        "scheme": "MGNREGA",
+        "workName": "Farm pond construction"
+      }
+    },
+    {
+      "id": "B-2425-01",
+      "financialYear": "2024-25",
+      "scheme": "राज्य वित्त आयोग",
+      "workId": "W-X01",
+      "workName": "विद्यालय चारदीवारी निर्माण",
+      "category": "building",
+      "approved": 340000,
+      "en": {
+        "scheme": "State Finance Commission",
+        "workName": "School boundary wall construction"
+      }
+    },
+    {
+      "id": "B-2425-02",
+      "financialYear": "2024-25",
+      "scheme": "15वाँ वित्त आयोग",
+      "workId": "W-X02",
+      "workName": "वार्ड 2 इंटरलॉकिंग सड़क",
+      "category": "road",
+      "approved": 520000,
+      "en": {
+        "scheme": "15th Finance Commission",
+        "workName": "Ward 2 interlocking road"
+      }
+    },
+    {
+      "id": "B-2425-03",
+      "financialYear": "2024-25",
+      "scheme": "मनरेगा",
+      "workId": "W-X03",
+      "workName": "नाला सफ़ाई व मेड़बंदी",
+      "category": "drain",
+      "approved": 260000,
+      "en": {
+        "scheme": "MGNREGA",
+        "workName": "Drain cleaning and bunding"
+      }
+    }
+  ],
+  "payments": [
+    {
+      "id": "P-009",
+      "financialYear": "2026-27",
+      "date": "2026-10-20",
+      "workId": "W-011",
+      "workName": "पंचायत भवन में ई-मित्र कक्ष",
+      "category": "building",
+      "voucherRef": null,
+      "amount": 50000,
+      "status": "recorded",
+      "en": {
+        "workName": "E-Mitra room in Panchayat building"
+      }
+    },
+    {
+      "id": "P-006",
+      "financialYear": "2026-27",
+      "date": "2026-10-18",
+      "workId": "W-005",
+      "workName": "पेयजल टंकी से पाइपलाइन विस्तार",
+      "category": "water",
+      "voucherRef": null,
+      "amount": 180000,
+      "status": "pending",
+      "en": {
+        "workName": "Pipeline extension from water tank"
+      }
+    },
+    {
+      "id": "P-016",
+      "financialYear": "2026-27",
+      "date": "2026-10-16",
+      "workId": "W-003",
+      "workName": "सामुदायिक तालाब गहरीकरण",
+      "category": "pond",
+      "voucherRef": null,
+      "amount": 62000,
+      "status": "recorded",
+      "en": {
+        "workName": "Community pond deepening"
+      }
+    },
+    {
+      "id": "P-003",
+      "financialYear": "2026-27",
+      "date": "2026-10-12",
+      "workId": "W-001",
+      "workName": "वार्ड 3 मुख्य मार्ग सीसी सड़क निर्माण",
+      "category": "road",
+      "voucherRef": null,
+      "amount": 62000,
+      "status": "recorded",
+      "en": {
+        "workName": "Ward 3 main road CC construction"
+      }
+    },
+    {
+      "id": "P-002",
+      "financialYear": "2026-27",
+      "date": "2026-09-14",
+      "workId": "W-001",
+      "workName": "वार्ड 3 मुख्य मार्ग सीसी सड़क निर्माण",
+      "category": "road",
+      "voucherRef": "V-2627-019",
+      "amount": 100000,
+      "status": "verified",
+      "en": {
+        "workName": "Ward 3 main road CC construction"
+      }
+    },
+    {
+      "id": "P-008",
+      "financialYear": "2026-27",
+      "date": "2026-09-02",
+      "workId": "W-011",
+      "workName": "पंचायत भवन में ई-मित्र कक्ष",
+      "category": "building",
+      "voucherRef": "V-2627-017",
+      "amount": 100000,
+      "status": "verified",
+      "en": {
+        "workName": "E-Mitra room in Panchayat building"
+      }
+    },
+    {
+      "id": "P-005",
+      "financialYear": "2026-27",
+      "date": "2026-08-30",
+      "workId": "W-005",
+      "workName": "पेयजल टंकी से पाइपलाइन विस्तार",
+      "category": "water",
+      "voucherRef": "V-2627-016",
+      "amount": 200000,
+      "status": "verified",
+      "en": {
+        "workName": "Pipeline extension from water tank"
+      }
+    },
+    {
+      "id": "P-015",
+      "financialYear": "2026-27",
+      "date": "2026-08-20",
+      "workId": "W-003",
+      "workName": "सामुदायिक तालाब गहरीकरण",
+      "category": "pond",
+      "voucherRef": "V-2627-014",
+      "amount": 343000,
+      "status": "verified",
+      "en": {
+        "workName": "Community pond deepening"
+      }
+    },
+    {
+      "id": "P-001",
+      "financialYear": "2026-27",
+      "date": "2026-07-28",
+      "workId": "W-001",
+      "workName": "वार्ड 3 मुख्य मार्ग सीसी सड़क निर्माण",
+      "category": "road",
+      "voucherRef": "V-2627-011",
+      "amount": 150000,
+      "status": "verified",
+      "en": {
+        "workName": "Ward 3 main road CC construction"
+      }
+    },
+    {
+      "id": "P-010",
+      "financialYear": "2025-26",
+      "date": "2026-06-12",
+      "workId": "W-002",
+      "workName": "वार्ड 5 पक्की नाली निर्माण",
+      "category": "drain",
+      "voucherRef": "V-2526-031",
+      "amount": 271500,
+      "status": "verified",
+      "en": {
+        "workName": "Ward 5 pucca drain construction"
+      }
+    },
+    {
+      "id": "P-004",
+      "financialYear": "2026-27",
+      "date": "2026-06-05",
+      "workId": "W-005",
+      "workName": "पेयजल टंकी से पाइपलाइन विस्तार",
+      "category": "water",
+      "voucherRef": "V-2627-007",
+      "amount": 400000,
+      "status": "verified",
+      "en": {
+        "workName": "Pipeline extension from water tank"
+      }
+    },
+    {
+      "id": "P-007",
+      "financialYear": "2026-27",
+      "date": "2026-05-20",
+      "workId": "W-007",
+      "workName": "आंगनवाड़ी भवन की छत मरम्मत",
+      "category": "building",
+      "voucherRef": "V-2627-004",
+      "amount": 60000,
+      "status": "verified",
+      "en": {
+        "workName": "Anganwadi building roof repair"
+      }
+    },
+    {
+      "id": "P-012",
+      "financialYear": "2025-26",
+      "date": "2026-03-02",
+      "workId": "W-009",
+      "workName": "विद्यालय परिसर में हैंडपंप मरम्मत",
+      "category": "water",
+      "voucherRef": "V-2526-027",
+      "amount": 42000,
+      "status": "verified",
+      "en": {
+        "workName": "Hand pump repair in school campus"
+      }
+    },
+    {
+      "id": "P-011",
+      "financialYear": "2025-26",
+      "date": "2026-02-25",
+      "workId": "W-006",
+      "workName": "सार्वजनिक शौचालय मरम्मत",
+      "category": "sanitation",
+      "voucherRef": "V-2526-024",
+      "amount": 148000,
+      "status": "verified",
+      "en": {
+        "workName": "Public toilet repair"
+      }
+    },
+    {
+      "id": "P-018",
+      "financialYear": "2025-26",
+      "date": "2025-10-28",
+      "workId": "M-002",
+      "workName": "खेत तलाई निर्माण",
+      "category": "pond",
+      "voucherRef": null,
+      "amount": 15000,
+      "status": "recorded",
+      "en": {
+        "workName": "Farm pond construction"
+      }
+    },
+    {
+      "id": "P-017",
+      "financialYear": "2025-26",
+      "date": "2025-09-30",
+      "workId": "M-002",
+      "workName": "खेत तलाई निर्माण",
+      "category": "pond",
+      "voucherRef": "V-2526-012",
+      "amount": 295000,
+      "status": "verified",
+      "en": {
+        "workName": "Farm pond construction"
+      }
+    },
+    {
+      "id": "P-013",
+      "financialYear": "2024-25",
+      "date": "2025-01-18",
+      "workId": "W-X02",
+      "workName": "वार्ड 2 इंटरलॉकिंग सड़क",
+      "category": "road",
+      "voucherRef": "V-2425-040",
+      "amount": 515000,
+      "status": "verified",
+      "en": {
+        "workName": "Ward 2 interlocking road"
+      }
+    },
+    {
+      "id": "P-014",
+      "financialYear": "2024-25",
+      "date": "2024-11-09",
+      "workId": "W-X01",
+      "workName": "विद्यालय चारदीवारी निर्माण",
+      "category": "building",
+      "voucherRef": "V-2425-028",
+      "amount": 338000,
+      "status": "verified",
+      "en": {
+        "workName": "School boundary wall construction"
+      }
+    },
+    {
+      "id": "P-020",
+      "financialYear": "2024-25",
+      "date": "2024-09-05",
+      "workId": "W-X03",
+      "workName": "नाला सफ़ाई व मेड़बंदी",
+      "category": "drain",
+      "voucherRef": null,
+      "amount": 5000,
+      "status": "recorded",
+      "en": {
+        "workName": "Drain cleaning and bunding"
+      }
+    },
+    {
+      "id": "P-019",
+      "financialYear": "2024-25",
+      "date": "2024-08-14",
+      "workId": "W-X03",
+      "workName": "नाला सफ़ाई व मेड़बंदी",
+      "category": "drain",
+      "voucherRef": "V-2425-015",
+      "amount": 250000,
+      "status": "verified",
+      "en": {
+        "workName": "Drain cleaning and bunding"
+      }
+    }
+  ]
+}

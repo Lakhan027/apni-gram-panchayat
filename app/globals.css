@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-padding-top: 88px;
+    -webkit-text-size-adjust: 100%;
+  }
+  @media (min-width: 768px) {
+    html {
+      scroll-padding-top: 96px;
+    }
+  }
+  @media (min-width: 1024px) {
+    html {
+      scroll-padding-top: 144px;
+    }
+  }
+  body {
+    @apply bg-ground text-ink antialiased;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4 {
+    line-height: 1.4;
+  }
+  :focus-visible {
+    outline: 3px solid #146C43;
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-content px-4 sm:px-6;
+  }
+  .card {
+    @apply rounded-[14px] border border-line bg-surface shadow-card sm:rounded-card;
+  }
+  .input {
+    @apply min-h-[44px] w-full rounded-[10px] border border-line bg-white px-3 text-[16px] text-ink placeholder:text-muted/80 focus:border-green-700 focus:outline-none focus:ring-2 focus:ring-green-700/30;
+  }
+  .label {
+    @apply mb-1.5 block text-[15px] font-semibold text-ink;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  header, footer, nav, .no-print, .top-strip {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+    font-size: 12pt;
+  }
+  .card {
+    box-shadow: none;
+    break-inside: avoid;
+  }
+  .print-only {
+    display: block !important;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #999;
+    padding: 4px 6px;
+  }
+  .print-table-full {
+    overflow: visible !important;
+    display: block !important;
+  }
+  .print-hide-cards {
+    display: none !important;
+  }
+}

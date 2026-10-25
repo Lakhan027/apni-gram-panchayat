@@ -1,0 +1,311 @@
+[
+  {
+    "id": "birth-death",
+    "name": "जन्म / मृत्यु प्रमाण पत्र",
+    "category": "certificate",
+    "purpose": "जन्म या मृत्यु का पंजीकरण और प्रमाण पत्र प्राप्त करना।",
+    "verified": false,
+    "contact": "पंचायत कार्यालय — पंजीकरण शाखा",
+    "documents": [
+      "अस्पताल / आशा द्वारा दी गई सूचना (यदि उपलब्ध)",
+      "माता-पिता / आवेदक का पहचान पत्र",
+      "निवास का प्रमाण"
+    ],
+    "steps": [
+      "पंचायत कार्यालय से आवेदन फ़ॉर्म लें",
+      "आवश्यक दस्तावेज़ संलग्न करें",
+      "फ़ॉर्म जमा कर रसीद प्राप्त करें",
+      "निर्धारित समय पर प्रमाण पत्र प्राप्त करें"
+    ],
+    "eligibility": null,
+    "officialLink": null,
+    "en": {
+      "name": "Birth / Death Certificate",
+      "purpose": "Register a birth or death and get the certificate.",
+      "contact": "Panchayat office — registration desk",
+      "documents": [
+        "Information from hospital / ASHA (if available)",
+        "ID of parents / applicant",
+        "Proof of residence"
+      ],
+      "steps": [
+        "Collect the application form from the Panchayat office",
+        "Attach the required documents",
+        "Submit the form and take a receipt",
+        "Collect the certificate on the given date"
+      ]
+    }
+  },
+  {
+    "id": "property-records",
+    "name": "संपत्ति रिकॉर्ड",
+    "category": "records",
+    "purpose": "आबादी भूमि / मकान से जुड़े पंचायत रिकॉर्ड की प्रति या जानकारी।",
+    "verified": false,
+    "contact": "ग्राम विकास अधिकारी कार्यालय",
+    "documents": [
+      "आवेदक का पहचान पत्र",
+      "संपत्ति से जुड़ा कोई पुराना दस्तावेज़ (यदि उपलब्ध)"
+    ],
+    "steps": [
+      "कार्यालय में लिखित आवेदन दें",
+      "रिकॉर्ड का मिलान कराया जाएगा",
+      "निर्धारित प्रक्रिया अनुसार प्रति प्राप्त करें"
+    ],
+    "eligibility": null,
+    "officialLink": null,
+    "en": {
+      "name": "Property Records",
+      "purpose": "Copy of or information from Panchayat records on village land / houses.",
+      "contact": "Village Development Officer’s office",
+      "documents": [
+        "Applicant’s ID",
+        "Any old document related to the property (if available)"
+      ],
+      "steps": [
+        "Give a written application at the office",
+        "The record will be checked",
+        "Collect the copy as per the procedure"
+      ]
+    }
+  },
+  {
+    "id": "mgnrega-job-card",
+    "name": "मनरेगा जॉब कार्ड",
+    "category": "employment",
+    "purpose": "ग्रामीण परिवारों को अकुशल शारीरिक कार्य हेतु रोजगार के लिए पंजीकरण।",
+    "verified": false,
+    "contact": "मनरेगा सहायक, पंचायत कार्यालय",
+    "documents": [
+      "परिवार के वयस्क सदस्यों का विवरण",
+      "फ़ोटो",
+      "निवास का प्रमाण"
+    ],
+    "steps": [
+      "पंचायत में पंजीकरण आवेदन दें",
+      "सत्यापन के बाद जॉब कार्ड जारी होगा",
+      "काम के लिए लिखित माँग दें और रसीद लें"
+    ],
+    "eligibility": null,
+    "officialLink": "https://nrega.dord.gov.in/Nregahome/MGNREGA_new/Nrega_home.aspx",
+    "en": {
+      "name": "MGNREGA Job Card",
+      "purpose": "Registration of rural households for unskilled manual work.",
+      "contact": "MGNREGA assistant, Panchayat office",
+      "documents": [
+        "Details of adult household members",
+        "Photo",
+        "Proof of residence"
+      ],
+      "steps": [
+        "Apply for registration at the Panchayat",
+        "The job card is issued after verification",
+        "Give a written demand for work and take a receipt"
+      ]
+    }
+  },
+  {
+    "id": "old-age-pension",
+    "name": "वृद्धावस्था पेंशन",
+    "category": "welfare",
+    "purpose": "बुज़ुर्ग नागरिकों को मासिक पेंशन सहायता।",
+    "verified": false,
+    "contact": "पंचायत कार्यालय — सामाजिक सुरक्षा",
+    "documents": [
+      "आयु का प्रमाण",
+      "पहचान पत्र",
+      "निवास का प्रमाण"
+    ],
+    "steps": [
+      "पंचायत या ई-मित्र से आवेदन करें",
+      "दस्तावेज़ सत्यापन",
+      "स्वीकृति की सूचना प्राप्त करें"
+    ],
+    "eligibility": null,
+    "officialLink": "https://jansoochna.rajasthan.gov.in/Services/Index?schemeId=22",
+    "en": {
+      "name": "Old Age Pension",
+      "purpose": "Monthly pension support for elderly citizens.",
+      "contact": "Panchayat office — social security",
+      "documents": [
+        "Proof of age",
+        "ID",
+        "Proof of residence"
+      ],
+      "steps": [
+        "Apply at the Panchayat or E-Mitra",
+        "Document verification",
+        "Receive the approval notice"
+      ]
+    }
+  },
+  {
+    "id": "widow-pension",
+    "name": "विधवा / एकल नारी पेंशन",
+    "category": "welfare",
+    "purpose": "विधवा एवं एकल महिलाओं को मासिक पेंशन सहायता।",
+    "verified": false,
+    "contact": "पंचायत कार्यालय — सामाजिक सुरक्षा",
+    "documents": [
+      "पहचान पत्र",
+      "संबंधित प्रमाण पत्र",
+      "निवास का प्रमाण"
+    ],
+    "steps": [
+      "पंचायत या ई-मित्र से आवेदन करें",
+      "दस्तावेज़ सत्यापन",
+      "स्वीकृति की सूचना प्राप्त करें"
+    ],
+    "eligibility": null,
+    "officialLink": "https://jansoochna.rajasthan.gov.in/Services/Index?schemeId=22",
+    "en": {
+      "name": "Widow / Single Woman Pension",
+      "purpose": "Monthly pension support for widows and single women.",
+      "contact": "Panchayat office — social security",
+      "documents": [
+        "ID",
+        "Relevant certificate",
+        "Proof of residence"
+      ],
+      "steps": [
+        "Apply at the Panchayat or E-Mitra",
+        "Document verification",
+        "Receive the approval notice"
+      ]
+    }
+  },
+  {
+    "id": "disability-pension",
+    "name": "दिव्यांग पेंशन",
+    "category": "welfare",
+    "purpose": "दिव्यांग नागरिकों को मासिक पेंशन सहायता।",
+    "verified": false,
+    "contact": "पंचायत कार्यालय — सामाजिक सुरक्षा",
+    "documents": [
+      "दिव्यांगता प्रमाण पत्र",
+      "पहचान पत्र",
+      "निवास का प्रमाण"
+    ],
+    "steps": [
+      "पंचायत या ई-मित्र से आवेदन करें",
+      "दस्तावेज़ सत्यापन",
+      "स्वीकृति की सूचना प्राप्त करें"
+    ],
+    "eligibility": null,
+    "officialLink": "https://jansoochna.rajasthan.gov.in/Services/Index?schemeId=22",
+    "en": {
+      "name": "Disability Pension",
+      "purpose": "Monthly pension support for persons with disabilities.",
+      "contact": "Panchayat office — social security",
+      "documents": [
+        "Disability certificate",
+        "ID",
+        "Proof of residence"
+      ],
+      "steps": [
+        "Apply at the Panchayat or E-Mitra",
+        "Document verification",
+        "Receive the approval notice"
+      ]
+    }
+  },
+  {
+    "id": "household-toilet",
+    "name": "व्यक्तिगत घरेलू शौचालय",
+    "category": "sanitation",
+    "purpose": "जिन घरों में शौचालय नहीं है, उनके लिए निर्माण सहायता।",
+    "verified": false,
+    "contact": "स्वच्छता प्रेरक, पंचायत कार्यालय",
+    "documents": [
+      "पहचान पत्र",
+      "घर का विवरण"
+    ],
+    "steps": [
+      "पंचायत में आवेदन दें",
+      "स्थल निरीक्षण",
+      "निर्माण के बाद सत्यापन"
+    ],
+    "eligibility": null,
+    "officialLink": "https://swachhbharatmission.ddws.gov.in/",
+    "en": {
+      "name": "Individual Household Toilet",
+      "purpose": "Construction support for homes without a toilet.",
+      "contact": "Sanitation motivator, Panchayat office",
+      "documents": [
+        "ID",
+        "House details"
+      ],
+      "steps": [
+        "Apply at the Panchayat",
+        "Site inspection",
+        "Verification after construction"
+      ]
+    }
+  },
+  {
+    "id": "tap-connection",
+    "name": "घरेलू नल कनेक्शन",
+    "category": "sanitation",
+    "purpose": "घर तक पेयजल नल कनेक्शन के लिए आवेदन।",
+    "verified": false,
+    "contact": "जल एवं स्वच्छता समिति, पंचायत",
+    "documents": [
+      "पहचान पत्र",
+      "घर का विवरण"
+    ],
+    "steps": [
+      "पंचायत में आवेदन दें",
+      "पाइपलाइन उपलब्धता की जाँच",
+      "कनेक्शन कार्य की सूचना"
+    ],
+    "eligibility": null,
+    "officialLink": "https://jaljeevanmission.gov.in/",
+    "en": {
+      "name": "Household Tap Connection",
+      "purpose": "Apply for a drinking water tap connection to your home.",
+      "contact": "Water and sanitation committee, Panchayat",
+      "documents": [
+        "ID",
+        "House details"
+      ],
+      "steps": [
+        "Apply at the Panchayat",
+        "Check of pipeline availability",
+        "Notice of connection work"
+      ]
+    }
+  },
+  {
+    "id": "chambal-pejal",
+    "name": "चंबल पेयजल योजना (चंबल–भीलवाड़ा जल आपूर्ति परियोजना)",
+    "category": "sanitation",
+    "purpose": "जन स्वास्थ्य अभियांत्रिकी विभाग (PHED), राजस्थान की परियोजना, जिसके चरण-II में चंबल नदी का पानी पाइपलाइन से भीलवाड़ा जिले के 8 कस्बों और 1698 गाँवों तक पहुँचाने की योजना है।",
+    "verified": false,
+    "contact": "पंचायत कार्यालय / जन स्वास्थ्य अभियांत्रिकी विभाग (PHED)",
+    "documents": [
+      "पहचान पत्र",
+      "घर का विवरण / निवास का प्रमाण"
+    ],
+    "steps": [
+      "पंचायत कार्यालय से गाँव में योजना की स्थिति की जानकारी लें",
+      "घरेलू कनेक्शन हेतु निर्धारित प्रक्रिया अनुसार आवेदन करें",
+      "पानी की आपूर्ति या पाइपलाइन संबंधी समस्या की शिकायत दर्ज करें"
+    ],
+    "eligibility": null,
+    "officialLink": "https://phedwater.rajasthan.gov.in/content/raj/water/public-health-engineering-department/en/major-projects/project-10.html",
+    "en": {
+      "name": "Chambal Drinking Water Scheme (Chambal–Bhilwara Water Supply Project)",
+      "purpose": "A Public Health Engineering Department (PHED), Rajasthan project whose Phase II plans to bring Chambal river water by pipeline to 8 towns and 1,698 villages of Bhilwara district.",
+      "contact": "Panchayat office / Public Health Engineering Department (PHED)",
+      "documents": [
+        "ID",
+        "House details / proof of residence"
+      ],
+      "steps": [
+        "Ask the Panchayat office about the scheme’s status in the village",
+        "Apply for a household connection as per the set procedure",
+        "Report any water supply or pipeline problem"
+      ]
+    }
+  }
+]
