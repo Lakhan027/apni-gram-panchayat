@@ -21,13 +21,13 @@
     {
       "id": "B-2627-02",
       "financialYear": "2026-27",
-      "scheme": "मनरेगा",
+      "scheme": "वीबी—जी राम जी (नरेगा)",
       "workId": "W-003",
       "workName": "सामुदायिक तालाब गहरीकरण",
       "category": "pond",
       "approved": 920000,
       "en": {
-        "scheme": "MGNREGA",
+        "scheme": "VB—G RAM G (NREGA)",
         "workName": "Community pond deepening"
       }
     },
@@ -138,13 +138,13 @@
     {
       "id": "B-2526-04",
       "financialYear": "2025-26",
-      "scheme": "मनरेगा",
+      "scheme": "वीबी—जी राम जी (नरेगा)",
       "workId": "M-002",
       "workName": "खेत तलाई निर्माण",
       "category": "pond",
       "approved": 310000,
       "en": {
-        "scheme": "MGNREGA",
+        "scheme": "VB—G RAM G (NREGA)",
         "workName": "Farm pond construction"
       }
     },
@@ -177,13 +177,13 @@
     {
       "id": "B-2425-03",
       "financialYear": "2024-25",
-      "scheme": "मनरेगा",
+      "scheme": "वीबी—जी राम जी (नरेगा)",
       "workId": "W-X03",
       "workName": "नाला सफ़ाई व मेड़बंदी",
       "category": "drain",
       "approved": 260000,
       "en": {
-        "scheme": "MGNREGA",
+        "scheme": "VB—G RAM G (NREGA)",
         "workName": "Drain cleaning and bunding"
       }
     }

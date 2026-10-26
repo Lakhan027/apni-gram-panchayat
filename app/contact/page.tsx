@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { ArrowRight, Clock, Mail, Map as MapIcon, MapPin, MessageSquareWarning, Phone, UsersRound } from 'lucide-react';
+import { ArrowRight, Clock, Map as MapIcon, MapPin, MessageSquareWarning, UsersRound } from 'lucide-react';
 import PageHeader from '@/components/layout/PageHeader';
 import Card from '@/components/ui/Card';
 import IconTile from '@/components/ui/IconTile';
@@ -11,12 +11,10 @@ export const metadata: Metadata = { title: 'संपर्क' };
 
 export default async function ContactPage() {
   const info = await getPanchayatInfo();
-  // Office details are placeholders until verified, so they come from the dictionary in both languages.
+  // Office details come from the dictionary so they follow the language. Phone and email are added once confirmed.
   const rows = [
-    { icon: MapPin, label: 'contact.address', value: 'ph.address' },
-    { icon: Phone, label: 'contact.phone', value: 'ph.phone' },
-    { icon: Mail, label: 'contact.email', value: 'ph.email' },
-    { icon: Clock, label: 'common.officeHours', value: 'ph.hours' },
+    { icon: MapPin, label: 'contact.address', value: 'office.address' },
+    { icon: Clock, label: 'common.officeHours', value: 'office.hours' },
   ] as const;
 
   return (
@@ -25,7 +23,7 @@ export default async function ContactPage() {
       <div className="container-page grid grid-cols-1 gap-6 py-8 lg:grid-cols-2">
         <Card className="p-5 sm:p-6">
           <h2 className="text-[20px] font-bold text-green-900">
-            <T k="contact.office" vars={{ name: info.name }} />
+            <T k="contact.office" />
           </h2>
           <p className="text-[14px] text-muted">
             <T k="contact.place" vars={{ tehsil: info.tehsil, district: info.district }} />, <T k="site.state" />

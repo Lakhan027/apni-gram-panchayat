@@ -15,7 +15,7 @@ export default function WorkDetail({ work, today }: { work: Work; today?: string
   const remaining = remainingBudget(work.approvedBudget, work.recordedExpenditure);
   const facts = [
     { label: t('works.scheme'), value: pick(work.scheme, work.en?.scheme) },
-    { label: t('work.approvalRef'), value: work.approvalRef ?? t('ph.verify') },
+    { label: t('work.approvalRef'), value: work.approvalRef ?? t('common.notYet') },
     { label: t('works.approvedBudget'), value: formatINR(work.approvedBudget) },
     { label: t('works.recorded'), value: formatINR(work.recordedExpenditure) },
     ...(remaining !== null ? [{ label: t('work.remaining'), value: formatINR(remaining) }] : []),

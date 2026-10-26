@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
-import { BookOpen, ClipboardList, Hammer, Landmark, MapPin, UserRound, UsersRound } from 'lucide-react';
+import { BookOpen, ClipboardList, Hammer, Landmark, MapPin, UsersRound } from 'lucide-react';
 import PageHeader from '@/components/layout/PageHeader';
 import Card from '@/components/ui/Card';
-import Badge from '@/components/ui/Badge';
 import IconTile from '@/components/ui/IconTile';
 import SectionHeading from '@/components/ui/SectionHeading';
-import { getPanchayatInfo } from '@/lib/data';
+import MemberCard from '@/components/members/MemberCard';
+import { getMembers, getPanchayatInfo } from '@/lib/data';
 import { L, T } from '@/lib/i18n/T';
 
 export const metadata: Metadata = { title: 'पंचायत परिचय' };
@@ -13,12 +13,16 @@ export const metadata: Metadata = { title: 'पंचायत परिचय' 
 const FUNCTION_ICONS = [Hammer, BookOpen, UsersRound, ClipboardList];
 
 export default async function AboutPage() {
-  const info = await getPanchayatInfo();
+  const [info, members] = await Promise.all([getPanchayatInfo(), getMembers()]);
+  const officials = members.filter((m) => m.role !== 'ward-panch');
+  const sarpanchName = members.find((m) => m.role === 'sarpanch') ?? { name: '', nameEn: '' };
   const details = [
-    { key: 'gp', label: <T k="about.gp" />, value: info.name },
+    { key: 'gp', label: <T k="about.gp" />, value: <L hi={info.name} en={info.en?.name} /> },
     { key: 'tehsil', label: <T k="about.tehsil" />, value: info.tehsil },
     { key: 'district', label: <T k="about.district" />, value: info.district },
     { key: 'state', label: <T k="about.state" />, value: <T k="site.state" /> },
+    { key: 'sarpanch', label: <T k="about.sarpanch" />, value: <L hi={sarpanchName.name} en={sarpanchName.nameEn} /> },
+    { key: 'villages', label: <T k="about.villages" />, value: <L hi={info.villages.join(', ')} en={info.en?.villages?.join(', ')} /> },
     { key: 'wards', label: <T k="about.wardCount" />, value: String(info.wards.length) },
   ];
 
@@ -32,7 +36,6 @@ export default async function AboutPage() {
               <h2 className="text-[22px] font-bold text-green-900 md:text-[26px]">
                 <T k="about.intro" />
               </h2>
-              <Badge label={<T k="common.verificationNeeded" />} />
             </div>
             <p className="text-[16px] leading-[1.8] text-ink">
               <L hi={info.intro} en={info.en?.intro} />
@@ -68,10 +71,12 @@ export default async function AboutPage() {
                   <span className="block font-bold text-green-900">
                     <T k="common.ward" vars={{ n: w.number }} />
                   </span>
-                  <span className="flex items-start gap-1 break-words text-[14px] text-muted">
-                    <MapPin size={14} className="mt-1 shrink-0" aria-hidden="true" />
-                    <L hi={w.area} en={info.en?.wardArea} />
-                  </span>
+                  {w.area && (
+                    <span className="flex items-start gap-1 break-words text-[14px] text-muted">
+                      <MapPin size={14} className="mt-1 shrink-0" aria-hidden="true" />
+                      <L hi={w.area} en={info.en?.wardArea} />
+                    </span>
+                  )}
                 </span>
               </li>
             ))}
@@ -96,19 +101,11 @@ export default async function AboutPage() {
         </section>
 
         <section aria-labelledby="reps">
-          <SectionHeading id="reps" title={<T k="about.reps" />} subtitle={<T k="about.repsSub" />} />
-          <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {info.representatives.map((r, i) => (
-              <li key={r.role} className="card flex items-center gap-3 p-4">
-                <IconTile icon={UserRound} tone="saffron" />
-                <span className="min-w-0">
-                  <span className="block font-bold text-green-900">
-                    <L hi={r.role} en={info.en?.representatives?.[i]?.role} />
-                  </span>
-                  <span className="block break-words text-[14px] text-muted">
-                    <L hi={r.name} en={info.en?.representatives?.[i]?.name} />
-                  </span>
-                </span>
+          <SectionHeading id="reps" title={<T k="about.reps" />} link={{ href: '/members', label: <T k="members.viewAll" /> }} />
+          <ul className="grid grid-cols-1 gap-4 min-[420px]:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
+            {officials.map((m) => (
+              <li key={m.id}>
+                <MemberCard member={m} />
               </li>
             ))}
           </ul>

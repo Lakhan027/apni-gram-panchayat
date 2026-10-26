@@ -37,7 +37,7 @@ export default function MgnregaSummaryCard(props: MgnregaSummaryCardProps) {
       </dl>
       <p className="mt-4 text-[14px] text-white/80">{t('mgSummary.wageNote')}</p>
       <div className="mt-5 flex flex-col gap-2 sm:flex-row">
-        <Button href="/schemes/mgnrega-job-card" variant="light" className="w-full sm:w-auto">
+        <Button href="/mgnrega/new-job-card" variant="light" className="w-full sm:w-auto">
           {t('mgSummary.register')}
           <ArrowRight size={18} aria-hidden="true" />
         </Button>

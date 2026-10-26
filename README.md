@@ -36,13 +36,22 @@ npm run test:build    # next build, then checks the real out/ folder
 | `/` | मुख्य पृष्ठ (Home) |
 | `/about` | पंचायत परिचय |
 | `/works`, `/works/[id]` | विकास कार्य + detail |
-| `/mgnrega` | मनरेगा |
+| `/mgnrega` | VB—G RAM G (NREGA) |
+| `/mgnrega/apply-work` | कार्य के लिए आवेदन (form, frontend only) |
+| `/mgnrega/new-job-card` | नया जॉब कार्ड बनाने हेतु (form, frontend only) |
+| `/mgnrega/mistol` | मिसटोल |
+| `/services/digital-signature` (+ `/noc`, `/ration-card`, `/light-file`) | डिजिटल सिग्नेचर + 3 guidance pages |
+| `/services/digital-services` | डिजिटल सेवाएँ (how-to guide + 7 official portals, open in a new tab) |
+| `/services/house-patta` | आवासीय मकान पट्टा (guidance) |
 | `/budget` | बजट एवं खर्च (print + CSV) |
-| `/gram-sabha` | ग्राम सभा |
+| `/gram-sabha` | पंचायत बैठक (कोरम) |
 | `/schemes`, `/schemes/[id]` | सरकारी योजनाएँ + detail |
 | `/notices` | सूचनाएँ |
 | `/complaints` | शिकायत / सुझाव (online filing not live yet — nothing stored or sent) |
 | `/contact` | संपर्क |
+| `/sarpanch` | हमारे सरपंच — profile (data in `data/sarpanch.json`) |
+| `/members` | पंचायत सदस्य (member cards) |
+| `/gallery` | गैलरी (village photos + large preview) |
 | `/admin` | Coming Soon only |
 | any other | Hindi 404 |
 
@@ -83,7 +92,7 @@ public/images/ placeholder illustrations
 ### Data rules
 
 - Budget: **approved** amounts come from `budget.json → lines`; **recorded** and **verified** amounts are computed only from `budget.json → payments` (see `budgetTotals` / `workWiseRows` in `lib/format.ts`), so every total matches.
-- MGNREGA wages are never shown as deposited unless `status` is `verified`; reference numbers show only for verified rows.
+- VB—G RAM G (NREGA) wages are never shown as deposited unless `status` is `verified`; reference numbers show only for verified rows.
 - Never add worker names, Aadhaar, bank account or villagers' phone numbers.
 - Unverified scheme links / eligibility show `[आधिकारिक लिंक — सत्यापन हेतु]`.
 
@@ -105,7 +114,7 @@ Each scheme in `data/schemes.json` has an `officialLink` (or `null`). Links open
 | घरेलू नल कनेक्शन | Jal Jeevan Mission |
 | व्यक्तिगत घरेलू शौचालय | Swachh Bharat Mission (Gramin) |
 | वृद्धावस्था / विधवा / दिव्यांग पेंशन | Jan Soochna Portal — Social Security Pension |
-| मनरेगा जॉब कार्ड (and the MGNREGA page) | nrega.dord.gov.in |
+| VB—G RAM G (NREGA) जॉब कार्ड (and the NREGA page) | nrega.dord.gov.in |
 | जन्म / मृत्यु प्रमाण पत्र, संपत्ति रिकॉर्ड | Coming Soon (no verified link yet) |
 
 ## Schedule flags (समय से पीछे)

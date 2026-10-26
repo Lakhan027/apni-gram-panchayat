@@ -11,7 +11,7 @@ export default function TopStrip() {
       <div className="container-page flex min-h-[36px] items-center justify-center py-1.5 text-[13px] sm:justify-start md:text-[14px]">
         <p className="flex items-center gap-1.5 text-center">
           <MapPin size={15} className="shrink-0 text-saffron" aria-hidden="true" />
-          {t('site.location', { village: SITE.village, tehsil: SITE.tehsil, district: SITE.district, state: t('site.state') })}
+          {t('site.location', { village: t('site.village'), tehsil: SITE.tehsil, district: SITE.district, state: t('site.state') })}
         </p>
       </div>
     </div>

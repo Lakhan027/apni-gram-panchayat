@@ -3,13 +3,13 @@
     "id": "N-001",
     "date": "2026-10-22",
     "category": "gram-sabha",
-    "title": "15 नवम्बर को विशेष ग्राम सभा",
-    "summary": "वार्षिक कार्य योजना और मनरेगा सामाजिक अंकेक्षण पर चर्चा हेतु सभी ग्रामवासी आमंत्रित हैं।",
+    "title": "15 नवम्बर को विशेष पंचायत बैठक (कोरम)",
+    "summary": "वार्षिक कार्य योजना और वीबी—जी राम जी (नरेगा) सामाजिक अंकेक्षण पर चर्चा हेतु सभी ग्रामवासी आमंत्रित हैं।",
     "important": false,
     "attachment": "सूचना पत्र",
     "en": {
-      "title": "Special Gram Sabha on 15 November",
-      "summary": "All villagers are invited to discuss the annual work plan and MGNREGA social audit.",
+      "title": "Special Panchayat Meeting (Quorum) on 15 November",
+      "summary": "All villagers are invited to discuss the annual work plan and VB—G RAM G (NREGA) social audit.",
       "attachment": "Notice letter"
     }
   },
@@ -57,12 +57,12 @@
     "id": "N-005",
     "date": "2026-10-05",
     "category": "scheme",
-    "title": "मनरेगा जॉब कार्ड हेतु पंजीकरण",
+    "title": "वीबी—जी राम जी (नरेगा) जॉब कार्ड हेतु पंजीकरण",
     "summary": "नए परिवार पंचायत कार्यालय में जॉब कार्ड हेतु आवेदन कर सकते हैं।",
     "important": false,
     "attachment": null,
     "en": {
-      "title": "Registration for MGNREGA job cards",
+      "title": "Registration for VB—G RAM G (NREGA) job cards",
       "summary": "New households can apply for job cards at the Panchayat office."
     }
   },
@@ -123,13 +123,13 @@
     "id": "N-010",
     "date": "2026-08-10",
     "category": "gram-sabha",
-    "title": "15 अगस्त ग्राम सभा की सूचना",
-    "summary": "स्वतंत्रता दिवस पर विद्यालय प्रांगण में ग्राम सभा आयोजित होगी।",
+    "title": "15 अगस्त पंचायत बैठक (कोरम) की सूचना",
+    "summary": "स्वतंत्रता दिवस पर विद्यालय प्रांगण में पंचायत बैठक (कोरम) आयोजित होगी।",
     "important": false,
     "attachment": null,
     "en": {
-      "title": "Notice of 15 August Gram Sabha",
-      "summary": "Gram Sabha at the school grounds on Independence Day."
+      "title": "Notice of 15 August Panchayat Meeting (Quorum)",
+      "summary": "Panchayat Meeting (Quorum) at the school grounds on Independence Day."
     }
   },
   {
@@ -162,12 +162,12 @@
     "id": "N-013",
     "date": "2026-06-15",
     "category": "deadline",
-    "title": "मनरेगा काम की माँग — वर्षा पूर्व",
+    "title": "वीबी—जी राम जी (नरेगा) काम की माँग — वर्षा पूर्व",
     "summary": "वर्षा से पहले काम की माँग पंचायत में लिखित रूप में दर्ज कराएँ।",
     "important": true,
     "attachment": null,
     "en": {
-      "title": "MGNREGA work demand — before monsoon",
+      "title": "VB—G RAM G (NREGA) work demand — before monsoon",
       "summary": "Register your demand for work in writing at the Panchayat before the rains."
     }
   },

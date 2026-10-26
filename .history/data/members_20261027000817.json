@@ -1,0 +1,18 @@
+[
+  { "id": "sarpanch", "role": "sarpanch", "ward": null, "name": "कमला देवी", "nameEn": "Kamla Devi", "mobile": "+91 98XXX XX101", "photo": null },
+  { "id": "up-sarpanch", "role": "up-sarpanch", "ward": null, "name": "रामेश्वर लाल", "nameEn": "Rameshwar Lal", "mobile": "+91 97XXX XX102", "photo": null },
+  { "id": "vdo", "role": "vdo", "ward": null, "name": "सुरेश कुमार", "nameEn": "Suresh Kumar", "mobile": "+91 94XXX XX103", "photo": null },
+  { "id": "assistant-secretary", "role": "assistant-secretary", "ward": null, "name": "महेंद्र सिंह", "nameEn": "Mahendra Singh", "mobile": "+91 99XXX XX104", "photo": null },
+  { "id": "patwari", "role": "patwari", "ward": null, "name": "दिनेश चंद्र", "nameEn": "Dinesh Chandra", "mobile": "+91 96XXX XX105", "photo": null },
+  { "id": "krishi-paryavekshak", "role": "krishi-paryavekshak", "ward": null, "name": "पूजा कुमारी", "nameEn": "Pooja Kumari", "mobile": "+91 93XXX XX106", "photo": null },
+  { "id": "sahakari-samiti", "role": "sahakari-samiti", "ward": null, "name": "भंवर लाल", "nameEn": "Bhanwar Lal", "mobile": "+91 98XXX XX107", "photo": null },
+  { "id": "ward-1", "role": "ward-panch", "ward": 1, "name": "गीता देवी", "nameEn": "Geeta Devi", "mobile": "+91 95XXX XX111", "photo": null },
+  { "id": "ward-2", "role": "ward-panch", "ward": 2, "name": "मोहन लाल", "nameEn": "Mohan Lal", "mobile": "+91 98XXX XX112", "photo": null },
+  { "id": "ward-3", "role": "ward-panch", "ward": 3, "name": "सीता देवी", "nameEn": "Sita Devi", "mobile": "+91 97XXX XX113", "photo": null },
+  { "id": "ward-4", "role": "ward-panch", "ward": 4, "name": "नारायण लाल", "nameEn": "Narayan Lal", "mobile": "+91 94XXX XX114", "photo": null },
+  { "id": "ward-5", "role": "ward-panch", "ward": 5, "name": "सुनीता कंवर", "nameEn": "Sunita Kanwar", "mobile": "+91 99XXX XX115", "photo": null },
+  { "id": "ward-6", "role": "ward-panch", "ward": 6, "name": "रतन लाल", "nameEn": "Ratan Lal", "mobile": "+91 96XXX XX116", "photo": null },
+  { "id": "ward-7", "role": "ward-panch", "ward": 7, "name": "पार्वती देवी", "nameEn": "Parvati Devi", "mobile": "+91 93XXX XX117", "photo": null },
+  { "id": "ward-8", "role": "ward-panch", "ward": 8, "name": "शंकर लाल", "nameEn": "Shankar Lal", "mobile": "+91 98XXX XX118", "photo": null },
+  { "id": "ward-9", "role": "ward-panch", "ward": 9, "name": "मंजू देवी", "nameEn": "Manju Devi", "mobile": "+91 95XXX XX119", "photo": null }
+]

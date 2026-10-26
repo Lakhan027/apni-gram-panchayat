@@ -59,7 +59,7 @@ export default function Header({ searchIndex }: { searchIndex: SearchItem[] }) {
         </div>
 
         <nav aria-label={t('header.mainMenu')} className="hidden border-t border-line lg:block">
-          <ul className="container-page flex items-center justify-between gap-1 py-1.5">
+          <ul className="container-page flex flex-wrap items-center justify-center gap-x-1 gap-y-0 py-1.5 xl:gap-x-2">
             {NAV_LINKS.map((l) => {
               const active = isActive(pathname, l.href);
               return (
@@ -67,7 +67,7 @@ export default function Header({ searchIndex }: { searchIndex: SearchItem[] }) {
                   <Link
                     href={l.href}
                     aria-current={active ? 'page' : undefined}
-                    className={`flex min-h-[44px] items-center whitespace-nowrap rounded-[10px] px-2 text-[15px] font-semibold xl:px-3 xl:text-[16px] ${
+                    className={`flex min-h-[44px] items-center whitespace-nowrap rounded-[10px] px-1.5 text-[14px] font-semibold xl:px-3 xl:text-[16px] ${
                       active ? 'bg-green-50 text-green-900' : 'text-ink hover:bg-green-50 hover:text-green-900'
                     }`}
                   >

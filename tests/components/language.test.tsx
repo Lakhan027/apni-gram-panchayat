@@ -86,8 +86,8 @@ describe('translated components', () => {
     await toEnglish();
     const nav = screen.getByRole('navigation', { name: 'Main menu' });
     expect(within(nav).getAllByRole('link').map((l) => l.textContent)).toEqual([
-      'Home', 'About Panchayat', 'Development Works', 'MGNREGA', 'Budget & Expenditure',
-      'Gram Sabha', 'Schemes', 'Notices', 'Complaints', 'Contact',
+      'Home', 'About Panchayat', 'Development Works', 'VB—G RAM G (NREGA)', 'Budget & Expenditure',
+      'Panchayat Meeting (Quorum)', 'Schemes', 'Notices', 'Complaints', 'Contact',
     ]);
     expect(screen.getByRole('button', { name: 'Search' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'Open menu' })).toBeInTheDocument();

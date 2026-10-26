@@ -71,11 +71,11 @@
   },
   {
     "id": "mgnrega-job-card",
-    "name": "मनरेगा जॉब कार्ड",
+    "name": "वीबी—जी राम जी (नरेगा) जॉब कार्ड",
     "category": "employment",
     "purpose": "ग्रामीण परिवारों को अकुशल शारीरिक कार्य हेतु रोजगार के लिए पंजीकरण।",
     "verified": false,
-    "contact": "मनरेगा सहायक, पंचायत कार्यालय",
+    "contact": "वीबी—जी राम जी (नरेगा) सहायक, पंचायत कार्यालय",
     "documents": [
       "परिवार के वयस्क सदस्यों का विवरण",
       "फ़ोटो",
@@ -89,9 +89,9 @@
     "eligibility": null,
     "officialLink": "https://nrega.dord.gov.in/Nregahome/MGNREGA_new/Nrega_home.aspx",
     "en": {
-      "name": "MGNREGA Job Card",
+      "name": "VB—G RAM G (NREGA) Job Card",
       "purpose": "Registration of rural households for unskilled manual work.",
-      "contact": "MGNREGA assistant, Panchayat office",
+      "contact": "VB—G RAM G (NREGA) assistant, Panchayat office",
       "documents": [
         "Details of adult household members",
         "Photo",

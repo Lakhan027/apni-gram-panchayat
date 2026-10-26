@@ -1,0 +1,222 @@
+{
+  "name": "मांगी लाल बुनकर",
+  "nameEn": "Mangi Lal Bunkar",
+  "photo": "/images/members/mangi-lal-bunkar.webp",
+  "poster": "/images/members/sankalp-patra.jpg",
+  "place": {
+    "village": "आपलियास",
+    "villageEn": "Appliyas",
+    "tehsil": "हुरड़ा",
+    "tehsilEn": "Hurda",
+    "district": "भीलवाड़ा",
+    "districtEn": "Bhilwara",
+    "state": "राजस्थान",
+    "stateEn": "Rajasthan"
+  },
+  "motto": "पंचायत का विकास ही हमारा संकल्प",
+  "mottoEn": "The Panchayat's development is our resolve",
+  "promise": "आपका विश्वास ही हमारा संकल्प",
+  "promiseEn": "Your trust is our resolve",
+  "intro": "मांगी लाल बुनकर ग्राम पंचायत आपलियास (तहसील हुरड़ा, जिला भीलवाड़ा, राजस्थान) के सरपंच हैं। वे एक कर्मठ, मेहनती और ईमानदार जनसेवक हैं। गाँव के हर परिवार की समस्याओं को ध्यान से सुनना और उनके समाधान के लिए लगातार प्रयास करना उनकी पहचान है। सरल स्वभाव और सबको साथ लेकर चलने की सोच के साथ उनका संकल्प ग्राम पंचायत आपलियास का चहुंमुखी विकास है।",
+  "introEn": "Mangi Lal Bunkar is the Sarpanch of Gram Panchayat Appliyas (Tehsil Hurda, District Bhilwara, Rajasthan). He is a dedicated, hard-working and honest public servant. Listening carefully to the problems of every family in the village and working steadily to solve them is what he is known for. With a simple nature and a belief in taking everyone along, his resolve is the all-round development of Gram Panchayat Appliyas.",
+  "responsibilities": [
+    "पंचायत बैठक (कोरम) की अध्यक्षता करना और प्रस्ताव पारित कराना",
+    "ग्राम पंचायत के विकास कार्यों की योजना बनाना और उनकी निगरानी करना",
+    "सरकारी योजनाओं का लाभ पात्र परिवारों तक पहुँचाने में मदद करना",
+    "पंचायत के आय-व्यय और रिकॉर्ड में पारदर्शिता रखना",
+    "गाँव की समस्याएँ सुनना और उन्हें संबंधित विभागों तक पहुँचाना"
+  ],
+  "responsibilitiesEn": [
+    "Chairing the Panchayat Meeting (Quorum) and getting resolutions passed",
+    "Planning and monitoring the Gram Panchayat's development works",
+    "Helping eligible families get the benefits of government schemes",
+    "Keeping the Panchayat's income, spending and records transparent",
+    "Listening to village problems and taking them to the right departments"
+  ],
+  "highlights": [
+    {
+      "text": "स्वच्छ पानी",
+      "textEn": "Clean water"
+    },
+    {
+      "text": "सड़क एवं नाली",
+      "textEn": "Roads & drains"
+    },
+    {
+      "text": "हर मकान का पट्टा",
+      "textEn": "A patta for every house"
+    }
+  ],
+  "goalGroups": [
+    {
+      "id": "governance",
+      "title": "जनता व सुशासन",
+      "titleEn": "People & good governance",
+      "icon": "users",
+      "goals": [
+        {
+          "n": 1,
+          "title": "जनता का विश्वास",
+          "titleEn": "People's trust",
+          "text": "गांव के हर परिवार की समस्याओं को सुनना, समझना और उनके समाधान के लिए निरंतर प्रयास करना।",
+          "textEn": "Listening to and understanding the problems of every family in the village, and working continuously to solve them."
+        },
+        {
+          "n": 13,
+          "text": "डिजिटल ग्राम पंचायत।",
+          "textEn": "A digital Gram Panchayat."
+        },
+        {
+          "n": 21,
+          "text": "ग्राम पंचायत ई-मित्र सेवाएं निशुल्क।",
+          "textEn": "Free Gram Panchayat E-Mitra services."
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "title": "भवन व बुनियादी ढाँचा",
+      "titleEn": "Buildings & infrastructure",
+      "icon": "building",
+      "goals": [
+        {
+          "n": 2,
+          "title": "विकास का संकल्प",
+          "titleEn": "Resolve for development",
+          "text": "(पंचायत भवन निर्माण) ग्राम पंचायत के समग्र विकास के लिए आवश्यक योजनाओं को प्राथमिकता देना और विकास कार्यों को गति देना।",
+          "textEn": "(Panchayat building construction) Giving priority to the plans needed for the overall development of the Gram Panchayat and speeding up development works."
+        },
+        {
+          "n": 4,
+          "title": "सड़क एवं नाली",
+          "titleEn": "Roads & drains",
+          "text": "ग्राम पंचायत के प्रत्येक गांव के हर घर तक पक्की सड़क व नाली एवं अन्य विकास कार्य करने का संकल्प।",
+          "textEn": "A resolve to build pucca roads, drains and other development works up to every house in every village of the Gram Panchayat."
+        },
+        {
+          "n": 11,
+          "text": "रोड लाइट व CCTV कैमरा लगाना।",
+          "textEn": "Installing street lights and CCTV cameras."
+        },
+        {
+          "n": 14,
+          "text": "मोक्षधाम का सौंदर्यीकरण।",
+          "textEn": "Beautification of the cremation ground (Mokshdham)."
+        },
+        {
+          "n": 15,
+          "text": "सामुदायिक भवन का निर्माण।",
+          "textEn": "Building a community hall."
+        },
+        {
+          "n": 16,
+          "text": "प्रत्येक गांव में पार्क का निर्माण।",
+          "textEn": "Building a park in every village."
+        },
+        {
+          "n": 18,
+          "text": "आधुनिक खेल मैदान।",
+          "textEn": "A modern playground."
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "title": "पानी व स्वच्छता",
+      "titleEn": "Water & cleanliness",
+      "icon": "droplets",
+      "goals": [
+        {
+          "n": 3,
+          "title": "स्वच्छ पानी",
+          "titleEn": "Clean water",
+          "text": "हर घर तक स्वच्छ पेयजल की व्यवस्था करना।",
+          "textEn": "Arranging clean drinking water for every house."
+        },
+        {
+          "n": 17,
+          "text": "नियमित सफाई कार्य एवं नालियों की सफाई।",
+          "textEn": "Regular cleaning work and cleaning of drains."
+        }
+      ]
+    },
+    {
+      "id": "education-health",
+      "title": "शिक्षा व स्वास्थ्य",
+      "titleEn": "Education & health",
+      "icon": "school",
+      "goals": [
+        {
+          "n": 6,
+          "title": "शिक्षा का विकास",
+          "titleEn": "Developing education",
+          "text": "विद्यालयों का आधुनिकीकरण, सरकारी विद्यालयों की स्थिति में सुधार, कम्प्यूटर कक्ष, लैब की व्यवस्था, डिजिटल लाइब्रेरी, वाई-फाई जैसी सुविधाओं को बढ़ावा देना।",
+          "textEn": "Modernising schools, improving government schools, and promoting facilities such as computer rooms, labs, a digital library and Wi-Fi."
+        },
+        {
+          "n": 7,
+          "title": "स्वास्थ्य",
+          "titleEn": "Health",
+          "text": "उप-स्वास्थ्य केंद्र का गठन।",
+          "textEn": "Setting up a sub-health centre."
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "title": "आवास व भूमि",
+      "titleEn": "Housing & land",
+      "icon": "home",
+      "goals": [
+        {
+          "n": 10,
+          "text": "हर आवासीय मकान का पट्टा बनाना।",
+          "textEn": "Making a patta for every residential house."
+        },
+        {
+          "n": 12,
+          "text": "आबादी भूमि का विस्तार करना।",
+          "textEn": "Expanding the village residential (abadi) land."
+        },
+        {
+          "n": 19,
+          "text": "प्रत्येक पात्र परिवार को प्रधानमंत्री आवास योजना को लाभ दिलाना।",
+          "textEn": "Getting every eligible family the benefit of the Pradhan Mantri Awas Yojana."
+        }
+      ]
+    },
+    {
+      "id": "welfare",
+      "title": "रोज़गार, कृषि व कल्याण",
+      "titleEn": "Employment, farming & welfare",
+      "icon": "sprout",
+      "goals": [
+        {
+          "n": 5,
+          "title": "सरकारी योजनाओं का लाभ",
+          "titleEn": "Benefits of government schemes",
+          "text": "ग्राम पंचायत के प्रत्येक पात्र परिवारों एवं किसानों तक सरकारी योजनाओं का लाभ पहुंचाना।",
+          "textEn": "Getting the benefits of government schemes to every eligible family and farmer in the Gram Panchayat."
+        },
+        {
+          "n": 8,
+          "title": "सहकारी समिति का गठन",
+          "titleEn": "Forming a cooperative society",
+          "text": "सहकारी समिति का गठन एवं चैनपुरिया और लक्ष्मणपुरा के मध्य खाद-उर्वरक वितरण भण्डार का निर्माण।",
+          "textEn": "Forming a cooperative society and building a fertiliser distribution store between Chainpuriya and Laxmanpura."
+        },
+        {
+          "n": 9,
+          "text": "नरेगा का सदउपयोग।",
+          "textEn": "Making good use of NREGA."
+        },
+        {
+          "n": 20,
+          "text": "दिव्यांगजनों और जरुरतमंदों को आर्थिक रूप से सशक्त बनाने हेतु कल्याणकारी योजनाएं।",
+          "textEn": "Welfare schemes to make persons with disabilities and people in need financially stronger."
+        }
+      ]
+    }
+  ],
+  "works": []
+}

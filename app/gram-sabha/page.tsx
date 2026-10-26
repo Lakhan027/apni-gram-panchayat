@@ -8,7 +8,7 @@ import SectionHeading from '@/components/ui/SectionHeading';
 import { getGramSabhaMeetings } from '@/lib/data';
 import { T } from '@/lib/i18n/T';
 
-export const metadata: Metadata = { title: 'ग्राम सभा' };
+export const metadata: Metadata = { title: 'पंचायत बैठक (कोरम)' };
 
 export default async function GramSabhaPage() {
   const meetings = await getGramSabhaMeetings();

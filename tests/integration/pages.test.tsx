@@ -8,6 +8,18 @@ import AboutPage from '@/app/about/page';
 import WorksPage from '@/app/works/page';
 import WorkDetailPage, { generateStaticParams as workParams, generateMetadata as workMeta } from '@/app/works/[id]/page';
 import MgnregaPage from '@/app/mgnrega/page';
+import ApplyWorkPage from '@/app/mgnrega/apply-work/page';
+import NewJobCardPage from '@/app/mgnrega/new-job-card/page';
+import MistolPage from '@/app/mgnrega/mistol/page';
+import SignaturePage from '@/app/services/digital-signature/page';
+import NocPage from '@/app/services/digital-signature/noc/page';
+import RationPage from '@/app/services/digital-signature/ration-card/page';
+import LightPage from '@/app/services/digital-signature/light-file/page';
+import DigitalServicesPage from '@/app/services/digital-services/page';
+import PattaPage from '@/app/services/house-patta/page';
+import MembersPage from '@/app/members/page';
+import GalleryPage from '@/app/gallery/page';
+import SarpanchPage from '@/app/sarpanch/page';
 import BudgetPage from '@/app/budget/page';
 import GramSabhaPage from '@/app/gram-sabha/page';
 import SchemesPage from '@/app/schemes/page';
@@ -17,7 +29,7 @@ import ComplaintsPage from '@/app/complaints/page';
 import ContactPage from '@/app/contact/page';
 import AdminPage from '@/app/admin/page';
 import NotFound from '@/app/not-found';
-import { getBudget, getGramSabhaMeetings, getMgnregaWorks, getSchemes, getWagePayments, getWorks } from '@/lib/data';
+import { getGallery, getMembers, getBudget, getGramSabhaMeetings, getMgnregaWorks, getSchemes, getWagePayments, getWorks } from '@/lib/data';
 import { budgetTotals, formatINRShort, workTotals } from '@/lib/format';
 import { allRoutes, resolves } from './routes';
 
@@ -69,15 +81,15 @@ describe('Home', () => {
     expect(within(works).getAllByRole('article')).toHaveLength(3);
     const notices = screen.getByRole('region', { name: 'ताज़ा सूचनाएँ' });
     expect(within(notices).getAllByRole('article')).toHaveLength(4);
-    const sabha = screen.getByRole('region', { name: 'आगामी ग्राम सभा' });
+    const sabha = screen.getByRole('region', { name: 'आगामी पंचायत बैठक (कोरम)' });
     expect(within(sabha).getByText('15 नवम्बर 2026')).toBeInTheDocument();
     expect(within(sabha).getAllByRole('listitem')).toHaveLength(3);
   });
 
-  it('has the 6 citizen services', async () => {
+  it('has the 9 citizen services (3 new + 6 existing)', async () => {
     await show(HomePage());
     const services = screen.getByRole('region', { name: 'नागरिक सेवाएँ' });
-    expect(within(services).getAllByRole('link')).toHaveLength(6);
+    expect(within(services).getAllByRole('link')).toHaveLength(9);
   });
 });
 
@@ -145,9 +157,108 @@ describe('official links', () => {
 
   it('the MGNREGA page links to the official NREGA portal in a new tab', async () => {
     await show(MgnregaPage());
-    const link = screen.getByRole('link', { name: /मनरेगा आधिकारिक पोर्टल/ });
+    const link = screen.getByRole('link', { name: /वीबी—जी राम जी \(नरेगा\) आधिकारिक पोर्टल/ });
     expect(link).toHaveAttribute('href', 'https://nrega.dord.gov.in/Nregahome/MGNREGA_new/Nrega_home.aspx');
     expect(link).toHaveAttribute('target', '_blank');
+  });
+});
+
+describe('Sarpanch profile', () => {
+  it('home shows the Sarpanch card at the very top, before the hero', async () => {
+    const { container } = await show(HomePage());
+    const card = screen.getByRole('region', { name: 'हमारे सरपंच — मांगी लाल बुनकर' });
+    expect(within(card).getByRole('link', { name: /पूरी प्रोफ़ाइल देखें/ })).toHaveAttribute('href', '/sarpanch');
+    const sections = [...container.querySelectorAll('section')];
+    expect(sections[0]).toBe(card);
+  });
+
+  it('/sarpanch shows the full profile', async () => {
+    await show(SarpanchPage());
+    expect(h1()).toHaveTextContent('हमारे सरपंच');
+    expect(screen.getByText('Mangi Lal Bunkar')).toBeInTheDocument();
+    expect(screen.getByRole('region', { name: 'विकास के संकल्प (उद्देश्य)' })).toBeInTheDocument();
+  });
+
+  it('about shows the Sarpanch and all villages of the Panchayat', async () => {
+    await show(AboutPage());
+    expect(screen.getAllByText('मांगी लाल बुनकर').length).toBeGreaterThan(0);
+    for (const v of ['आपलियास', 'चैनपुरिया', 'लक्ष्मणपुरा']) expect(screen.getAllByText(new RegExp(v)).length).toBeGreaterThan(0);
+  });
+});
+
+describe('पंचायत सदस्य and गैलरी pages', () => {
+  it('members page shows every member', async () => {
+    const members = await getMembers();
+    await show(MembersPage());
+    expect(h1()).toHaveTextContent('पंचायत सदस्य');
+    expect(screen.getAllByRole('article')).toHaveLength(members.length);
+  });
+
+  it('gallery page shows every photo', async () => {
+    const photos = await getGallery();
+    await show(GalleryPage());
+    expect(h1()).toHaveTextContent('गैलरी');
+    expect(screen.getAllByRole('figure')).toHaveLength(photos.length);
+  });
+
+  it('the old name ग्राम सभा is gone from the main pages', async () => {
+    for (const Page of [HomePage, GramSabhaPage, NoticesPage]) {
+      const { container, unmount } = await show(Page());
+      expect(container.textContent).not.toMatch(/ग्राम सभा/);
+      unmount();
+    }
+  });
+});
+
+describe('new citizen services', () => {
+  it('home lists the three new services first, in order, then the existing six', async () => {
+    await show(HomePage());
+    const services = screen.getByRole('region', { name: 'नागरिक सेवाएँ' });
+    const hrefs = within(services).getAllByRole('link').map((a) => a.getAttribute('href'));
+    expect(hrefs).toEqual([
+      '/services/digital-signature',
+      '/services/digital-services',
+      '/services/house-patta',
+      '/schemes/birth-death',
+      '/schemes/property-records',
+      '/mgnrega',
+      '/gram-sabha',
+      '/complaints',
+      '/schemes',
+    ]);
+  });
+
+  it.each([
+    ['digital-signature', SignaturePage, 'डिजिटल सिग्नेचर', '/#services'],
+    ['digital-signature/noc', NocPage, 'NOC के लिए', '/services/digital-signature'],
+    ['digital-signature/ration-card', RationPage, 'राशन कार्ड के लिए', '/services/digital-signature'],
+    ['digital-signature/light-file', LightPage, 'लाइट फाइल के लिए', '/services/digital-signature'],
+    ['digital-services', DigitalServicesPage, 'डिजिटल सेवाएँ', '/#services'],
+    ['house-patta', PattaPage, 'आवासीय मकान पट्टा', '/#services'],
+  ] as const)('/services/%s has its heading, a Back button and no form', async (_slug, Page, title, back) => {
+    await show(Page());
+    expect(h1()).toHaveTextContent(title);
+    expect(screen.getAllByRole('link', { name: /वापस/ })[0]).toHaveAttribute('href', back);
+    expect(screen.queryByRole('textbox')).not.toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: /जमा करें/ })).not.toBeInTheDocument();
+  });
+});
+
+describe('VB—G RAM G (NREGA) options', () => {
+  it('the NREGA page offers the three options', async () => {
+    await show(MgnregaPage());
+    expect(h1()).toHaveTextContent('वीबी—जी राम जी (नरेगा)');
+    for (const name of [/कार्य के लिए आवेदन/, /नया जॉब कार्ड बनाने हेतु/, /मिसटोल/]) expect(screen.getByRole('link', { name })).toBeInTheDocument();
+  });
+
+  it.each([
+    ['apply-work', ApplyWorkPage, 'कार्य के लिए आवेदन'],
+    ['new-job-card', NewJobCardPage, 'नया जॉब कार्ड बनाने हेतु'],
+    ['mistol', MistolPage, 'मिसटोल'],
+  ] as const)('/mgnrega/%s has its heading and a Back button', async (_slug, Page, title) => {
+    await show(Page());
+    expect(h1()).toHaveTextContent(title);
+    expect(screen.getAllByRole('link', { name: /वापस/ })[0]).toHaveAttribute('href', '/mgnrega');
   });
 });
 
@@ -155,7 +266,7 @@ describe('MGNREGA', () => {
   it('lists every work and wage row, with references only for verified wages', async () => {
     const [works, wages] = await Promise.all([getMgnregaWorks(), getWagePayments()]);
     await show(MgnregaPage());
-    const register = screen.getByRole('table', { name: 'मनरेगा कार्य रजिस्टर' });
+    const register = screen.getByRole('table', { name: 'वीबी—जी राम जी (नरेगा) कार्य रजिस्टर' });
     expect(within(register).getAllByRole('row')).toHaveLength(works.length + 1);
     const wageTable = screen.getByRole('table', { name: 'मज़दूरी भुगतान स्थिति' });
     for (const w of wages) {
@@ -190,10 +301,12 @@ describe('Gram Sabha', () => {
 });
 
 describe('About, complaints, admin, 404', () => {
-  it('about lists all wards and placeholder representatives', async () => {
+  it('about lists all wards and the main members, with a link to all members', async () => {
     await show(AboutPage());
     expect(screen.getByRole('region', { name: 'वार्ड सूची' }).querySelectorAll('li')).toHaveLength(9);
-    expect(screen.getByText('[सरपंच का नाम — सत्यापन हेतु]')).toBeInTheDocument();
+    const reps = screen.getByRole('region', { name: 'जनप्रतिनिधि व अधिकारी' });
+    expect(within(reps).getAllByRole('article')).toHaveLength(7);
+    expect(within(reps).getByRole('link', { name: /सभी पंचायत सदस्य देखें/ })).toHaveAttribute('href', '/members');
   });
 
   it('complaints page wires the form and the process panel together', async () => {

@@ -56,7 +56,7 @@ describe('Mobile menu', () => {
 
     await openMenu();
     const dialog = screen.getByRole('dialog', { name: 'मुख्य मेन्यू' });
-    await userEvent.click(within(dialog).getByRole('link', { name: 'मनरेगा' }));
+    await userEvent.click(within(dialog).getByRole('link', { name: 'वीबी—जी राम जी (नरेगा)' }));
     expect(screen.getByRole('button', { name: 'मेन्यू खोलें', hidden: true })).toHaveAttribute('aria-expanded', 'false');
   });
 });

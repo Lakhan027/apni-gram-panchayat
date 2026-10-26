@@ -12,8 +12,10 @@ import SummaryBar from '@/components/ui/SummaryBar';
 import { getMgnregaReports, getMgnregaWorks, getStats, getWagePayments } from '@/lib/data';
 import { formatNumber } from '@/lib/format';
 import { T } from '@/lib/i18n/T';
+import NregaOptions from '@/components/nrega/NregaOptions';
+import { NREGA_NAME_HI } from '@/lib/nrega';
 
-export const metadata: Metadata = { title: 'मनरेगा' };
+export const metadata: Metadata = { title: NREGA_NAME_HI };
 
 const NREGA_PORTAL = 'https://nrega.dord.gov.in/Nregahome/MGNREGA_new/Nrega_home.aspx';
 
@@ -56,6 +58,11 @@ export default async function MgnregaPage() {
         }
       />
       <div className="container-page space-y-12 py-8">
+        <section aria-labelledby="nrega-services">
+          <SectionHeading id="nrega-services" title={<T k="nrega.options" />} />
+          <NregaOptions />
+        </section>
+
         <SummaryBar
           labelKey="mgSummary.title"
           items={[

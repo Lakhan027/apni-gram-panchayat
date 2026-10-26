@@ -31,6 +31,12 @@ describe('dictionary', () => {
     }
   });
 
+  it('Hindi text uses आपलियास and the Hindi scheme name, not the Latin ones', () => {
+    for (const [k, v] of Object.entries(dictionary.hi)) {
+      expect(v, k).not.toMatch(/Appliyas|VB—G RAM G/);
+    }
+  });
+
   it('keeps the same {placeholders} in both languages', () => {
     const vars = (s: string) => (s.match(/\{\w+\}/g) ?? []).sort();
     for (const k of Object.keys(dictionary.hi) as (keyof typeof dictionary.hi)[]) {

@@ -10,8 +10,21 @@ import schemesJson from '@/data/schemes.json';
 import noticesJson from '@/data/notices.json';
 import statsJson from '@/data/stats.json';
 import panchayatJson from '@/data/panchayat.json';
+import digitalServicesJson from '@/data/digital-services.json';
+import serviceGuidesJson from '@/data/service-guides.json';
+import membersJson from '@/data/members.json';
+import galleryJson from '@/data/gallery.json';
+import sarpanchJson from '@/data/sarpanch.json';
+import campaignJson from '@/data/campaign.json';
 import type {
+  Campaign,
   BudgetData,
+  DigitalService,
+  GalleryPhoto,
+  Member,
+  SarpanchProfile,
+  ServiceGuide,
+  ServiceGuideId,
   GramSabhaMeeting,
   MgnregaReport,
   MgnregaWork,
@@ -80,6 +93,36 @@ export async function getStats(): Promise<PanchayatStats> {
 
 export async function getPanchayatInfo(): Promise<PanchayatInfo> {
   return panchayatJson as PanchayatInfo;
+}
+
+/** Official government portals shown under डिजिटल सेवाएँ. */
+export async function getDigitalServices(): Promise<DigitalService[]> {
+  return digitalServicesJson as DigitalService[];
+}
+
+/** Guidance for डिजिटल सिग्नेचर (NOC / राशन कार्ड / लाइट फाइल) and आवासीय मकान पट्टा. */
+export async function getServiceGuide(id: ServiceGuideId): Promise<ServiceGuide> {
+  return (serviceGuidesJson as Record<ServiceGuideId, ServiceGuide>)[id];
+}
+
+/** पंचायत सदस्य, in display order (officials first, then ward panch 1–9). */
+export async function getMembers(): Promise<Member[]> {
+  return membersJson as Member[];
+}
+
+/** Profile of the Sarpanch shown on the home page card and /sarpanch. */
+/** Campaign switch and details; set "enabled": false in data/campaign.json to hide it everywhere. */
+export async function getCampaign(): Promise<Campaign> {
+  return campaignJson as Campaign;
+}
+
+export async function getSarpanch(): Promise<SarpanchProfile> {
+  return sarpanchJson as SarpanchProfile;
+}
+
+/** Village photos for the गैलरी page. */
+export async function getGallery(): Promise<GalleryPhoto[]> {
+  return galleryJson as GalleryPhoto[];
 }
 
 /** Small index for the header search box (works, notices, schemes). Subtitles are built in the UI language. */

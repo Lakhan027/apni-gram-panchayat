@@ -29,6 +29,13 @@ export const NAV_LINKS = [
   { href: '/contact', key: 'nav.contact' },
 ] as const;
 
+/** Pages linked from the footer and home page but not the top menu. */
+export const EXTRA_LINKS = [
+  { href: '/sarpanch', key: 'nav.sarpanch' },
+  { href: '/members', key: 'nav.members' },
+  { href: '/gallery', key: 'nav.gallery' },
+] as const;
+
 export function isActiveLink(pathname: string, href: string) {
   const path = pathname.replace(/\/$/, '') || '/';
   if (href === '/') return path === '/';

@@ -16,7 +16,7 @@ export default function Logo() {
       </span>
       <span className="min-w-0 leading-tight">
         <span className="block truncate text-[18px] font-extrabold text-green-900 md:text-[21px]">{t('site.name')}</span>
-        <span className="block truncate text-[13px] font-medium text-muted md:text-[14px]">Appliyas · Bhilwara</span>
+        <span className="block truncate text-[13px] font-medium text-muted md:text-[14px]">{t('site.logoSub')}</span>
       </span>
     </Link>
   );

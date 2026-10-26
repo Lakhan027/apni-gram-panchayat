@@ -3,11 +3,11 @@
     "id": "GS-2026-04",
     "date": "2026-11-15",
     "time": "सुबह 11:00 बजे",
-    "venue": "पंचायत भवन प्रांगण, Appliyas",
+    "venue": "पंचायत भवन प्रांगण, आपलियास",
     "upcoming": true,
     "agenda": [
       "वार्षिक कार्य योजना 2027–28 पर चर्चा",
-      "मनरेगा कार्यों का सामाजिक अंकेक्षण",
+      "वीबी—जी राम जी (नरेगा) कार्यों का सामाजिक अंकेक्षण",
       "पेयजल पाइपलाइन विस्तार की प्रगति समीक्षा",
       "स्ट्रीट लाइट स्थापना हेतु स्थान चयन"
     ],
@@ -18,7 +18,7 @@
       "venue": "Panchayat building grounds, Appliyas",
       "agenda": [
         "Discussion of the annual work plan 2027–28",
-        "Social audit of MGNREGA works",
+        "Social audit of VB—G RAM G (NREGA) works",
         "Progress review of the water pipeline extension",
         "Choosing locations for street lights"
       ]
@@ -31,7 +31,7 @@
     "venue": "राजकीय विद्यालय प्रांगण",
     "upcoming": false,
     "agenda": [
-      "स्वतंत्रता दिवस विशेष ग्राम सभा",
+      "स्वतंत्रता दिवस विशेष पंचायत बैठक (कोरम)",
       "स्ट्रीट लाइट प्रस्ताव",
       "स्वच्छता अभियान"
     ],
@@ -82,7 +82,7 @@
       "time": "10:30 AM",
       "venue": "Government school grounds",
       "agenda": [
-        "Independence Day special Gram Sabha",
+        "Independence Day special Panchayat Meeting (Quorum)",
         "Street light proposal",
         "Cleanliness drive"
       ]
@@ -92,7 +92,7 @@
     "id": "GS-2026-02",
     "date": "2026-05-01",
     "time": "सुबह 11:00 बजे",
-    "venue": "पंचायत भवन प्रांगण, Appliyas",
+    "venue": "पंचायत भवन प्रांगण, आपलियास",
     "upcoming": false,
     "agenda": [
       "पेयजल पाइपलाइन विस्तार",
@@ -144,12 +144,12 @@
     "id": "GS-2026-01",
     "date": "2026-01-26",
     "time": "सुबह 11:00 बजे",
-    "venue": "पंचायत भवन प्रांगण, Appliyas",
+    "venue": "पंचायत भवन प्रांगण, आपलियास",
     "upcoming": false,
     "agenda": [
-      "गणतंत्र दिवस ग्राम सभा",
+      "गणतंत्र दिवस पंचायत बैठक (कोरम)",
       "वार्ड 5 नाली निर्माण",
-      "मनरेगा श्रम बजट"
+      "वीबी—जी राम जी (नरेगा) श्रम बजट"
     ],
     "attendance": {
       "total": 240,
@@ -171,13 +171,13 @@
       },
       {
         "number": "R-2026-03",
-        "title": "मनरेगा श्रम बजट 2026–27 अनुमोदन",
+        "title": "वीबी—जी राम जी (नरेगा) श्रम बजट 2026–27 अनुमोदन",
         "decision": "passed",
         "responsibleBody": "ग्राम पंचायत",
         "actionStatus": "completed",
         "lastUpdate": "2026-03-31",
         "en": {
-          "title": "Approval of MGNREGA labour budget 2026–27",
+          "title": "Approval of VB—G RAM G (NREGA) labour budget 2026–27",
           "responsibleBody": "Gram Panchayat"
         }
       },
@@ -198,9 +198,9 @@
       "time": "11:00 AM",
       "venue": "Panchayat building grounds, Appliyas",
       "agenda": [
-        "Republic Day Gram Sabha",
+        "Republic Day Panchayat Meeting (Quorum)",
         "Ward 5 drain construction",
-        "MGNREGA labour budget"
+        "VB—G RAM G (NREGA) labour budget"
       ]
     }
   }

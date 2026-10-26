@@ -130,7 +130,7 @@
     "category": "pond",
     "ward": 1,
     "status": "in-progress",
-    "scheme": "मनरेगा",
+    "scheme": "वीबी—जी राम जी (नरेगा)",
     "approvalRef": "AR-2026-021",
     "approvedBudget": 920000,
     "recordedExpenditure": 405000,
@@ -150,7 +150,7 @@
     "updates": [
       {
         "date": "2026-04-01",
-        "text": "मनरेगा के अंतर्गत खुदाई शुरू।"
+        "text": "वीबी—जी राम जी (नरेगा) के अंतर्गत खुदाई शुरू।"
       },
       {
         "date": "2026-06-20",
@@ -170,9 +170,9 @@
     "en": {
       "name": "Community pond deepening",
       "description": "Digging of the old village pond and strengthening of its embankment.",
-      "scheme": "MGNREGA",
+      "scheme": "VB—G RAM G (NREGA)",
       "updates": [
-        "Digging started under MGNREGA.",
+        "Digging started under VB—G RAM G (NREGA).",
         "Work temporarily slowed by rain.",
         "Stone pitching on the embankment in progress."
       ],
@@ -206,12 +206,12 @@
     "updates": [
       {
         "date": "2026-09-12",
-        "text": "ग्राम सभा से स्वीकृति प्राप्त।"
+        "text": "पंचायत बैठक (कोरम) से स्वीकृति प्राप्त।"
       }
     ],
     "documents": [
       {
-        "name": "ग्राम सभा प्रस्ताव",
+        "name": "पंचायत बैठक (कोरम) प्रस्ताव",
         "type": "PDF"
       }
     ],
@@ -220,10 +220,10 @@
       "description": "24 LED street lights at the main market and bus stand.",
       "scheme": "15th Finance Commission",
       "updates": [
-        "Approved by the Gram Sabha."
+        "Approved by the Panchayat Meeting (Quorum)."
       ],
       "documents": [
-        "Gram Sabha resolution"
+        "Panchayat Meeting (Quorum) resolution"
       ]
     }
   },
@@ -384,7 +384,7 @@
     "category": "road",
     "ward": 8,
     "status": "proposed",
-    "scheme": "[वित्त स्रोत — सत्यापन हेतु]",
+    "scheme": "अभी तय नहीं",
     "approvalRef": null,
     "approvedBudget": null,
     "recordedExpenditure": null,
@@ -402,16 +402,16 @@
     "updates": [
       {
         "date": "2026-10-08",
-        "text": "ग्राम सभा में प्रस्ताव रखा गया।"
+        "text": "पंचायत बैठक (कोरम) में प्रस्ताव रखा गया।"
       }
     ],
     "documents": [],
     "en": {
       "name": "Approach road to cremation ground",
       "description": "Gravel road from the village to the cremation ground.",
-      "scheme": "[Funding source — to be verified]",
+      "scheme": "Not decided yet",
       "updates": [
-        "Proposal placed in the Gram Sabha."
+        "Proposal placed in the Panchayat Meeting (Quorum)."
       ],
       "documents": []
     }
@@ -549,7 +549,7 @@
     "category": "sanitation",
     "ward": 6,
     "status": "proposed",
-    "scheme": "मनरेगा",
+    "scheme": "वीबी—जी राम जी (नरेगा)",
     "approvalRef": null,
     "approvedBudget": 210000,
     "recordedExpenditure": null,
@@ -572,7 +572,7 @@
     "en": {
       "name": "Khejri plantation with tree guards",
       "description": "300 khejri saplings with tree guards on public land.",
-      "scheme": "MGNREGA",
+      "scheme": "VB—G RAM G (NREGA)",
       "updates": [
         "Estimate prepared and sent for approval."
       ],

@@ -1,0 +1,146 @@
+{
+  "noc": {
+    "about": "भवन निर्माण, बिजली कनेक्शन या पानी कनेक्शन जैसे कामों के लिए ग्राम पंचायत का अनापत्ति प्रमाण पत्र (NOC)। पंचायत अधिकारी इस पर डिजिटल सिग्नेचर करते हैं, जिससे यह ऑनलाइन आवेदन और विभागों में मान्य होता है।",
+    "aboutEn": "A No Objection Certificate (NOC) from the Gram Panchayat for work such as building construction, an electricity connection or a water connection. Panchayat officials sign it digitally so it is accepted in online applications and by departments.",
+    "documents": [
+      "पहचान पत्र (आधार कार्ड या वोटर आईडी)",
+      "जन आधार कार्ड",
+      "निवास का प्रमाण",
+      "मकान / भूखंड के कागज़ (पट्टा या जमाबंदी की नकल)",
+      "NOC किस काम के लिए चाहिए, उसका लिखित आवेदन",
+      "पासपोर्ट साइज़ फ़ोटो"
+    ],
+    "documentsEn": [
+      "ID proof (Aadhaar card or Voter ID)",
+      "Jan Aadhaar card",
+      "Proof of residence",
+      "House / plot papers (patta or a copy of the jamabandi)",
+      "A written application saying what the NOC is needed for",
+      "Passport-size photo"
+    ],
+    "steps": [
+      "पंचायत कार्यालय या नज़दीकी ई-मित्र केंद्र पर NOC के लिए आवेदन दें।",
+      "ऊपर दिए दस्तावेज़ों की कॉपी साथ लगाएँ और आवेदन की रसीद लें।",
+      "पंचायत आपके आवेदन और कागज़ों की जाँच करती है; ज़रूरत हो तो मौके पर निरीक्षण होता है।",
+      "स्वीकृति के बाद अधिकारी NOC पर डिजिटल सिग्नेचर करते हैं।",
+      "डिजिटल सिग्नेचर वाला NOC ई-मित्र / पंचायत से प्राप्त करें या ऑनलाइन डाउनलोड करें।"
+    ],
+    "stepsEn": [
+      "Apply for the NOC at the Panchayat office or the nearest E-Mitra centre.",
+      "Attach copies of the documents above and keep the application receipt.",
+      "The Panchayat checks your application and papers; a site inspection may be done if needed.",
+      "After approval, the officials digitally sign the NOC.",
+      "Collect the digitally signed NOC from E-Mitra / the Panchayat or download it online."
+    ],
+    "where": ["ग्राम पंचायत कार्यालय", "नज़दीकी ई-मित्र केंद्र"],
+    "whereEn": ["Gram Panchayat office", "Nearest E-Mitra centre"]
+  },
+  "ration-card": {
+    "about": "नया राशन कार्ड बनवाने, उसमें नाम जोड़ने, नाम हटाने या सुधार के ऑनलाइन आवेदन का सत्यापन ग्राम पंचायत स्तर पर होता है। जाँच के बाद पंचायत अधिकारी आवेदन पर डिजिटल सिग्नेचर करते हैं और आवेदन आगे खाद्य एवं आपूर्ति विभाग को जाता है।",
+    "aboutEn": "Online applications for a new ration card, or to add, remove or correct a name, are verified at the Gram Panchayat level. After checking, Panchayat officials digitally sign the application and it goes on to the Food & Supplies Department.",
+    "documents": [
+      "परिवार के सभी सदस्यों के आधार कार्ड",
+      "जन आधार कार्ड",
+      "निवास का प्रमाण",
+      "पुराना राशन कार्ड (यदि हो)",
+      "नाम हटाने के लिए मृत्यु या विवाह प्रमाण पत्र (जो लागू हो)",
+      "परिवार के मुखिया की पासपोर्ट साइज़ फ़ोटो"
+    ],
+    "documentsEn": [
+      "Aadhaar cards of all family members",
+      "Jan Aadhaar card",
+      "Proof of residence",
+      "Old ration card (if any)",
+      "Death or marriage certificate to remove a name (whichever applies)",
+      "Passport-size photo of the head of the family"
+    ],
+    "steps": [
+      "नज़दीकी ई-मित्र केंद्र पर राशन कार्ड का ऑनलाइन आवेदन करवाएँ (नया / नाम जोड़ना / नाम हटाना / सुधार)।",
+      "दस्तावेज़ अपलोड करवाएँ और आवेदन की रसीद संभाल कर रखें।",
+      "आवेदन सत्यापन के लिए ग्राम पंचायत के पास आता है।",
+      "पंचायत अधिकारी जाँच के बाद आवेदन पर डिजिटल सिग्नेचर करते हैं।",
+      "इसके बाद खाद्य एवं आपूर्ति विभाग से राशन कार्ड जारी / अपडेट होता है; स्थिति ई-मित्र पर पूछें।"
+    ],
+    "stepsEn": [
+      "Get the online ration card application done at the nearest E-Mitra centre (new / add a name / remove a name / correction).",
+      "Have the documents uploaded and keep the application receipt safe.",
+      "The application comes to the Gram Panchayat for verification.",
+      "After checking, Panchayat officials digitally sign the application.",
+      "The ration card is then issued / updated by the Food & Supplies Department; ask E-Mitra for the status."
+    ],
+    "where": ["नज़दीकी ई-मित्र केंद्र", "ग्राम पंचायत कार्यालय (सत्यापन)"],
+    "whereEn": ["Nearest E-Mitra centre", "Gram Panchayat office (verification)"]
+  },
+  "light-file": {
+    "about": "नया बिजली कनेक्शन (लाइट फाइल) लेने के लिए कई बार ग्राम पंचायत से अनापत्ति / सत्यापन की ज़रूरत होती है। पंचायत अधिकारी इस पर डिजिटल सिग्नेचर करते हैं, जिसे बिजली कनेक्शन की फाइल के साथ लगाया जाता है।",
+    "aboutEn": "A new electricity connection (light file) often needs a no-objection / verification from the Gram Panchayat. Panchayat officials sign it digitally, and it is attached to the electricity connection file.",
+    "documents": [
+      "पहचान पत्र (आधार कार्ड)",
+      "जन आधार कार्ड",
+      "मकान / भूखंड के कागज़ (पट्टा या जमाबंदी की नकल)",
+      "कृषि कनेक्शन के लिए खेत की जमाबंदी / खसरा की नकल",
+      "पासपोर्ट साइज़ फ़ोटो"
+    ],
+    "documentsEn": [
+      "ID proof (Aadhaar card)",
+      "Jan Aadhaar card",
+      "House / plot papers (patta or a copy of the jamabandi)",
+      "For an agricultural connection: copy of the field jamabandi / khasra",
+      "Passport-size photo"
+    ],
+    "steps": [
+      "बिजली विभाग के कार्यालय या ई-मित्र पर नए कनेक्शन (घरेलू / कृषि / व्यावसायिक) का आवेदन करें।",
+      "जहाँ ज़रूरी हो, ग्राम पंचायत में अनापत्ति / सत्यापन के लिए आवेदन दें।",
+      "पंचायत जाँच के बाद दस्तावेज़ पर डिजिटल सिग्नेचर करती है।",
+      "डिजिटल सिग्नेचर वाला दस्तावेज़ अपनी लाइट फाइल के साथ बिजली विभाग में जमा करें।",
+      "आगे की प्रक्रिया और शुल्क की जानकारी बिजली विभाग से लें।"
+    ],
+    "stepsEn": [
+      "Apply for a new connection (domestic / agricultural / commercial) at the electricity office or E-Mitra.",
+      "Where needed, apply at the Gram Panchayat for a no-objection / verification.",
+      "After checking, the Panchayat digitally signs the document.",
+      "Submit the digitally signed document with your light file at the electricity office.",
+      "Ask the electricity department about the next steps and fees."
+    ],
+    "where": ["बिजली विभाग का कार्यालय", "नज़दीकी ई-मित्र केंद्र", "ग्राम पंचायत कार्यालय (अनापत्ति / सत्यापन)"],
+    "whereEn": ["Electricity department office", "Nearest E-Mitra centre", "Gram Panchayat office (no-objection / verification)"]
+  },
+  "house-patta": {
+    "about": "आवासीय मकान पट्टा गाँव की आबादी भूमि पर बने मकान के मालिकाना हक का दस्तावेज़ है, जिसे ग्राम पंचायत जारी करती है। पट्टा होने से मकान पर बैंक ऋण, बिजली-पानी कनेक्शन और सरकारी योजनाओं में आसानी होती है।",
+    "aboutEn": "A residential house patta is the ownership document for a house on village residential (abadi) land, issued by the Gram Panchayat. Having a patta makes bank loans, electricity and water connections and government schemes easier.",
+    "documents": [
+      "आवेदन पत्र (पंचायत कार्यालय से)",
+      "पहचान पत्र (आधार कार्ड या वोटर आईडी)",
+      "जन आधार कार्ड",
+      "निवास का प्रमाण",
+      "मकान / भूखंड से जुड़े पुराने कागज़ — जैसे बिजली / पानी का बिल, पुराना पट्टा या बिक्री का कागज़ (यदि हों)",
+      "भूखंड का नक्शा और आस-पास के पड़ोसियों का विवरण",
+      "पासपोर्ट साइज़ फ़ोटो"
+    ],
+    "documentsEn": [
+      "Application form (from the Panchayat office)",
+      "ID proof (Aadhaar card or Voter ID)",
+      "Jan Aadhaar card",
+      "Proof of residence",
+      "Old papers about the house / plot, such as electricity / water bills, an old patta or sale papers (if any)",
+      "A sketch of the plot and details of the neighbours around it",
+      "Passport-size photo"
+    ],
+    "steps": [
+      "ग्राम पंचायत कार्यालय से पट्टे का आवेदन पत्र लें और भरें।",
+      "ऊपर दिए दस्तावेज़ लगाकर आवेदन जमा करें और रसीद लें।",
+      "पंचायत की टीम मौके पर जाकर भूखंड का निरीक्षण और नाप करती है।",
+      "आपत्ति के लिए सार्वजनिक सूचना जारी होती है; तय समय में आपत्ति न आने पर आगे की कार्यवाही होती है।",
+      "निर्धारित शुल्क जमा करने के बाद ग्राम पंचायत पट्टा जारी करती है।"
+    ],
+    "stepsEn": [
+      "Get the patta application form from the Gram Panchayat office and fill it in.",
+      "Submit it with the documents above and keep the receipt.",
+      "A Panchayat team visits the site to inspect and measure the plot.",
+      "A public notice is issued for objections; if none come within the set time, the process moves ahead.",
+      "After the set fee is paid, the Gram Panchayat issues the patta."
+    ],
+    "where": ["ग्राम पंचायत कार्यालय", "ग्राम विकास अधिकारी / सरपंच"],
+    "whereEn": ["Gram Panchayat office", "Village Development Officer / Sarpanch"]
+  }
+}

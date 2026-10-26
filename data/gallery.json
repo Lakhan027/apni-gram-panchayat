@@ -1,0 +1,10 @@
+[
+  { "id": "panchayat-bhawan-appliyas", "src": "/images/gallery/panchayat-bhawan-appliyas.jpg", "caption": "ग्राम पंचायत भवन, आपलियास", "captionEn": "Gram Panchayat building, Appliyas" },
+  { "id": "talab", "src": "/images/gallery/talab.svg", "caption": "गाँव का सामुदायिक तालाब", "captionEn": "The village community pond" },
+  { "id": "school", "src": "/images/gallery/school.svg", "caption": "राजकीय विद्यालय", "captionEn": "Government school" },
+  { "id": "khet", "src": "/images/gallery/khet.svg", "caption": "खेत और खेजड़ी के पेड़", "captionEn": "Fields and khejri trees" },
+  { "id": "sadak", "src": "/images/gallery/sadak.svg", "caption": "गाँव की मुख्य सड़क", "captionEn": "The village main road" },
+  { "id": "tanki", "src": "/images/gallery/tanki.svg", "caption": "पेयजल टंकी", "captionEn": "Drinking water tank" },
+  { "id": "anganwadi", "src": "/images/gallery/anganwadi.svg", "caption": "आंगनवाड़ी केंद्र", "captionEn": "Anganwadi centre" },
+  { "id": "chaupal", "src": "/images/gallery/chaupal.svg", "caption": "बरगद के नीचे चौपाल", "captionEn": "Chaupal under the banyan tree" }
+]

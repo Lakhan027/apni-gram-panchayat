@@ -1,8 +1,11 @@
 import {
   Briefcase,
   ClipboardList,
+  FileSignature,
   FileText,
+  Globe,
   Hammer,
+  HousePlus,
   Home as HomeIcon,
   IndianRupee,
   MessageSquareWarning,
@@ -12,6 +15,7 @@ import {
   IdCard,
 } from 'lucide-react';
 import Hero from '@/components/home/Hero';
+import SarpanchHighlight from '@/components/sarpanch/SarpanchHighlight';
 import ServiceCard from '@/components/home/ServiceCard';
 import StatCard from '@/components/home/StatCard';
 import MgnregaSummaryCard from '@/components/home/MgnregaSummaryCard';
@@ -20,12 +24,16 @@ import WorkCard from '@/components/works/WorkCard';
 import NoticeCard from '@/components/notices/NoticeCard';
 import SectionHeading from '@/components/ui/SectionHeading';
 import EmptyState from '@/components/ui/EmptyState';
-import { getBudget, getMgnregaWorks, getNotices, getStats, getUpcomingMeeting, getWagePayments, getWorks } from '@/lib/data';
+import { getBudget, getMgnregaWorks, getNotices, getSarpanch, getStats, getUpcomingMeeting, getWagePayments, getWorks } from '@/lib/data';
 import { budgetTotals, formatNumber, workTotals } from '@/lib/format';
 import { ShortINR, T } from '@/lib/i18n/T';
 import { todayISO } from '@/lib/schedule';
 
 const SERVICES = [
+  // New services first, in this order.
+  { href: '/services/digital-signature', title: 'svc.ds', description: 'svc.dsDesc', icon: FileSignature, tone: 'saffron' as const },
+  { href: '/services/digital-services', title: 'svc.digital', description: 'svc.digitalDesc', icon: Globe },
+  { href: '/services/house-patta', title: 'svc.patta', description: 'svc.pattaDesc', icon: HousePlus, tone: 'saffron' as const },
   { href: '/schemes/birth-death', title: 'home.svc.birth', description: 'home.svc.birthDesc', icon: FileText },
   { href: '/schemes/property-records', title: 'home.svc.property', description: 'home.svc.propertyDesc', icon: HomeIcon, tone: 'saffron' as const },
   { href: '/mgnrega', title: 'home.svc.mgnrega', description: 'home.svc.mgnregaDesc', icon: Briefcase },
@@ -38,7 +46,7 @@ const CURRENT_FY = '2026-27';
 const FY_LABEL = '2026–27';
 
 export default async function HomePage() {
-  const [stats, works, notices, meeting, budget, mgnregaWorks, wages] = await Promise.all([
+  const [stats, works, notices, meeting, budget, mgnregaWorks, wages, sarpanch] = await Promise.all([
     getStats(),
     getWorks(),
     getNotices(),
@@ -46,6 +54,7 @@ export default async function HomePage() {
     getBudget(),
     getMgnregaWorks(),
     getWagePayments(),
+    getSarpanch(),
   ]);
   const today = todayISO();
   const wt = workTotals(works);
@@ -64,11 +73,12 @@ export default async function HomePage() {
 
   return (
     <>
+      <SarpanchHighlight sarpanch={sarpanch} />
       <Hero />
 
       <section aria-labelledby="services" className="container-page py-12 md:py-16">
         <SectionHeading id="services" title={<T k="home.services" />} subtitle={<T k="home.servicesSub" />} />
-        <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-6">
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3">
           {SERVICES.map((s) => (
             <ServiceCard key={s.href} {...s} title={<T k={s.title} />} description={<T k={s.description} />} />
           ))}

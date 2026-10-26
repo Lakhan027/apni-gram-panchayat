@@ -1,0 +1,65 @@
+[
+  {
+    "id": "raj-kisan",
+    "name": "राज किसान",
+    "nameEn": "Raj Kisan",
+    "about": "किसानों के लिए कृषि विभाग की योजनाएँ और आवेदन",
+    "aboutEn": "Agriculture Department schemes and applications for farmers",
+    "url": "https://rajkisan.rajasthan.gov.in/",
+    "icon": "sprout"
+  },
+  {
+    "id": "apna-khata",
+    "name": "अपना खाता",
+    "nameEn": "Apna Khata",
+    "about": "जमाबंदी, खसरा और भूमि रिकॉर्ड की नकल",
+    "aboutEn": "Copies of jamabandi, khasra and land records",
+    "url": "https://apnakhata.rajasthan.gov.in/",
+    "icon": "scroll"
+  },
+  {
+    "id": "vb-g-ram-g",
+    "name": "वीबी—जी राम जी (नरेगा)",
+    "nameEn": "VB—G RAM G (NREGA)",
+    "about": "ग्रामीण रोजगार योजना का आधिकारिक पोर्टल",
+    "aboutEn": "Official portal of the rural employment scheme",
+    "url": "https://vbgramg.dord.gov.in/vbgramg/home.aspx",
+    "icon": "hardhat"
+  },
+  {
+    "id": "uidai",
+    "name": "आधार सेवाएँ",
+    "nameEn": "Aadhaar Services (UIDAI)",
+    "about": "आधार डाउनलोड, अपडेट और स्थिति",
+    "aboutEn": "Download, update and check Aadhaar status",
+    "url": "https://uidai.gov.in/en",
+    "icon": "fingerprint"
+  },
+  {
+    "id": "bhu-naksha",
+    "name": "भू-नक्शा",
+    "nameEn": "Bhu Naksha",
+    "about": "खेत और भूखंड का नक्शा देखें",
+    "aboutEn": "View field and plot maps",
+    "url": "https://bhunaksha.rajasthan.gov.in/",
+    "icon": "map"
+  },
+  {
+    "id": "voters",
+    "name": "मतदाता सेवाएँ",
+    "nameEn": "Voter Services",
+    "about": "वोटर आईडी, नाम जोड़ना और सुधार",
+    "aboutEn": "Voter ID, adding a name and corrections",
+    "url": "https://voters.eci.gov.in/",
+    "icon": "vote"
+  },
+  {
+    "id": "pehchan",
+    "name": "पहचान पोर्टल",
+    "nameEn": "Pehchan Portal",
+    "about": "जन्म, मृत्यु और विवाह पंजीकरण (राजस्थान)",
+    "aboutEn": "Birth, death and marriage registration (Rajasthan)",
+    "url": "https://xn--m1bet4hqd2b.xn--11b7cb3a6a.xn--h2brj9c/project/pehchan/",
+    "icon": "idcard"
+  }
+]
